@@ -1,0 +1,6 @@
+# Start dnsmasq if dhcpcd used static config 
+if [ "$interface" = "wlan0" ] && [ "x$profile" = "xstatic_wlan0" ] && [ "$reason" = "STATIC" ]; then
+    echo "Using own network, starting dnsmasq"
+    # Note: We run systemctl in the background to avoid deadlocking on start
+    systemctl start dnsmasq &
+fi

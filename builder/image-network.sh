@@ -34,11 +34,14 @@ echo_stamp() {
   echo -e ${TEXT}
 }
 
-echo_stamp "#1 Write STATIC to /etc/dhcpcd.conf"
+echo_stamp "#1 Enable fallback profile for wlan0 in /etc/dhcpcd.conf"
 
 cat << EOF >> /etc/dhcpcd.conf
-interface wlan0
+profile static_wlan0
 static ip_address=192.168.11.1/24
+
+interface wlan0
+fallback static_wlan0
 EOF
 
 echo_stamp "#2 Set wpa_supplicant country"
