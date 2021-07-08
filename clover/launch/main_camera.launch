@@ -43,4 +43,8 @@
     <node pkg="clover" type="camera_markers" ns="main_camera" name="main_camera_markers">
         <param name="scale" value="3.0"/>
     </node>
+
+    <!-- image topic throttled -->
+    <node pkg="topic_tools" name="cam_throttle" type="throttle" ns="main_camera"
+        args="messages image_raw 5.0 image_raw_throttled"/>
 </launch>
