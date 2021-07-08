@@ -1,0 +1,20 @@
+<launch>
+    <arg name="ip" default="127.0.0.1"/>
+
+    <!-- mavros -->
+    <include file="$(find clever)/launch/mavros.launch">
+        <arg name="fcu_conn" value="udp"/>
+        <arg name="fcu_ip" value="$(arg ip)"/>
+        <arg name="gcs_bridge" value="false"/>
+        <arg name="viz" value="false"/>
+        <arg name="respawn" default="false"/>
+    </include>
+
+    <node name="simple_offboard" pkg="clever" type="simple_offboard" required="true" output="screen">
+        <param name="reference_frames/body" value="map"/>
+        <param name="reference_frames/base_link" value="map"/>
+    </node>
+
+    <param name="test_module" value="$(find clever)/test/sitl.py"/>
+    <test test-name="basic_test" pkg="ros_pytest" type="ros_pytest_runner" time-limit="120.0"/>
+</launch>
