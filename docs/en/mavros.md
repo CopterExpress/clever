@@ -52,4 +52,4 @@ Messages published in the topics may be viewed with the `rostopic` utility, e.g.
 
 `/mavros/setpoint_raw/attitude` — sends [SET\_ATTITUDE\_TARGET](https://mavlink.io/en/messages/common.html#SET_ATTITUDE_TARGET) message. Allows setting the target attitude /angular velocity and throttle level. The values to be set are selected using the `type_mask` field
 
-`/mavros/setpoint_raw/global` — sends [SET\_POSITION\_TARGET\_GLOBAL\_INT](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_GLOBAL_INT). Allows setting the target attitude in global coordinates \(latitude, longitude, altitude\) and flight speed. **Not supported in PX4** \([issue](https://github.com/PX4/Firmware/issues/7552)\).
+`/mavros/setpoint_raw/global` — sends [SET\_POSITION\_TARGET\_GLOBAL\_INT](https://mavlink.io/en/messages/common.html#SET_POSITION_TARGET_GLOBAL_INT). Allows setting the target attitude in global coordinates \(latitude, longitude, altitude\) and flight speed.
