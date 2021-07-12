@@ -26,9 +26,10 @@ USB connection is the preferred way to connect to the flight controller.
 
 UART connection is another way for the Raspberry Pi and FCU to communicate.
 
-1. Connect Raspberry Pi to your FCU using a UART cable.
-2. [Connect to the Raspberry Pi over SSH](ssh.md).
-3. Change the connection type in `~/catkin_ws/src/clover/clover/launch/clover.launch` to UART:
+1. Connect the TELEM 2 port on the flight controller using a UART cable to the Raspberry Pi pins following this instruction: the black cable (GND) to Ground, the green cable to (UART_RX) к GPIO14, the yellow cable (UART_TX) to GPIO15. Do not connect the red cable (5V).
+2. Set the PX4 parameters: `MAV_1_CONFIG` to TELEM 2, `SER_TEL2_BAUND` to 921600 8N1.
+3. [Connect to the Raspberry Pi over SSH](ssh.md).
+4. Change the connection type in `~/catkin_ws/src/clover/clover/launch/clover.launch` to UART:
 
     ```xml
     <arg name="fcu_conn" default="uart"/>
@@ -40,7 +41,7 @@ UART connection is another way for the Raspberry Pi and FCU to communicate.
     sudo systemctl restart clover
     ```
 
-> **Hint** Set the `SYS_COMPANION` PX4 parameter to 921600 to enable UART on the FCU.
+> **Hint** At the old versions of PX4 firmware you should tet the `SYS_COMPANION` parameter to 921600 to enable UART on the FCU.
 
 ## SITL connection
 
