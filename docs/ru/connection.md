@@ -26,9 +26,10 @@
 
 Дополнительным способом подключения является подключение подключение по интерфейсу UART.
 
-1. Подключите Raspberry Pi к полетному контроллеру по UART.
-2. [Подключитесь в Raspberry Pi по SSH](ssh.md).
-3. Поменяйте в launch-файле Клевера (`~/catkin_ws/src/clover/clover/launch/clover.launch`) тип подключения на UART:
+1. Подключите Raspberry Pi к полетному контроллеру по UART. Для этого соедините кабелем порт TELEM 2 на полетном контроллере к пинам на Raspberry Pi следующем образом: черный провод (GND) к Ground, зеленый (UART_RX) к GPIO14, желтый (UART_TX) к GPIO15. Красный провод (5V) подключать не нужно.
+2. Измените значения параметров PX4: `MAV_1_CONFIG` на TELEM 2, `SER_TEL2_BAUND` на 921600 8N1.
+3. [Подключитесь в Raspberry Pi по SSH](ssh.md).
+4. Поменяйте в launch-файле Клевера (`~/catkin_ws/src/clover/clover/launch/clover.launch`) тип подключения на UART:
 
     ```xml
     <arg name="fcu_conn" default="uart"/>
@@ -40,7 +41,7 @@
     sudo systemctl restart clover
     ```
 
-> **Hint** Для корректной работы подключения Raspberry Pi и полетного контроллера по UART необходимо установить значение параметра `SYS_COMPANION` на 921600.
+> **Hint** На старых версиях прошивки PX4 для корректной работы подключения Raspberry Pi и полетного контроллера по UART было необходимо установить значение параметра `SYS_COMPANION` на 921600.
 
 ## Подключение к SITL
 
