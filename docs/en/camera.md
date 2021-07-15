@@ -88,6 +88,46 @@ Publishing the processed image (at the end of the image_callback function):
 image_pub.publish(bridge.cv2_to_imgmsg(cv_image, 'bgr8'))
 ```
 
+> **Warning** If your image processing code takes considerable time to finish, consider using a separate thread. You can use a queue (as implemented in the Python `queue` library) to communicate between threads. Below is a sample that implements a separate image processing thread.
+
+```python
+import rospy
+import cv2
+from thread import start_new_thread
+from queue import Queue
+from sensor_msgs.msg import Image
+from cv_bridge import CvBridge
+
+rospy.init_node('computer_vision_multithreaded')
+bridge = CvBridge()
+img_queue = Queue()
+img_pub = rospy.Publisher('~debug', Image, queue_size=1)
+
+
+def img_thread():
+    # Wait for first image
+    img_msg = img_queue.get(block=True)
+    while True:
+        # Get newest message
+        while not img_queue.empty():
+            img_msg = img_queue.get(block=False)
+
+        img = bridge.cv2_to_imgmsg(img_msg, 'bgr8')
+        # Do any image processing with cv2...
+        img_pub.publish(bridge.cv2_to_imgmsg(img, 'bgr8'))
+
+
+def image_callback(data):
+    img_queue.put(data)
+
+
+img_sub = rospy.Subscriber('main_camera/image_raw', Image, image_callback, queue_size=1)
+# Start processing thread
+start_new_thread(img_thread, ())
+
+rospy.spin()
+```
+
 The obtained images can be viewed using [web_video_server](web_video_server.md).
 
 #### Retrieving one frame
