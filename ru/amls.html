@@ -1,0 +1,2776 @@
+
+<!DOCTYPE HTML>
+<html lang="ru" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Система автоматической посадки (AMLS) · Clover</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="Copter Express">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-richquotes/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-zoom/zoom.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-language-picker/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+    
+    <link rel="stylesheet" type="text/css" href="../clover.css" />
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="remote-control-with-oculusvr.html" />
+    
+    
+    <link rel="prev" href="projects.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Введите условия поиска" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Введение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="glossary.html">
+            
+                <a href="glossary.html">
+            
+                    
+                    Глоссарий
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="safety.html">
+            
+                <a href="safety.html">
+            
+                    
+                    Безопасность
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="assembly.html">
+            
+                <a href="assembly.html">
+            
+                    
+                    Сборка
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="assemble_4_2_pro.html">
+            
+                <a href="assemble_4_2_pro.html">
+            
+                    
+                    Клевер 4.2 Pro
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.2" data-path="assemble_4_2.html">
+            
+                <a href="assemble_4_2.html">
+            
+                    
+                    Клевер 4.2
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.3" data-path="assemble_4_2_ws.html">
+            
+                <a href="assemble_4_2_ws.html">
+            
+                    
+                    Клевер 4.2 WorldSkills
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.4" data-path="assemble_4_1.html">
+            
+                <a href="assemble_4_1.html">
+            
+                    
+                    Клевер 4.1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.5" data-path="assemble_4.html">
+            
+                <a href="assemble_4.html">
+            
+                    
+                    Клевер 4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.6" data-path="assemble_3.html">
+            
+                <a href="assemble_3.html">
+            
+                    
+                    Клевер 3
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4.7" data-path="assemble_2.html">
+            
+                <a href="assemble_2.html">
+            
+                    
+                    Клевер 2
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="setup.html">
+            
+                <a href="setup.html">
+            
+                    
+                    Настройка
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="calibration.html">
+            
+                <a href="calibration.html">
+            
+                    
+                    Калибровка датчиков
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="radio.html">
+            
+                <a href="radio.html">
+            
+                    
+                    Настройка пульта
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.2.1" data-path="rc_flysky_a8s.html">
+            
+                <a href="rc_flysky_a8s.html">
+            
+                    
+                    Работа с FS-A8S
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="modes.html">
+            
+                <a href="modes.html">
+            
+                    
+                    Полетные режимы
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.4" data-path="power.html">
+            
+                <a href="power.html">
+            
+                    
+                    Настройка питания
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.5" data-path="failsafe.html">
+            
+                <a href="failsafe.html">
+            
+                    
+                    Настройка failsafe
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="flight.html">
+            
+                <a href="flight.html">
+            
+                    
+                    Ручной полет
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="flight_exercises.html">
+            
+                <a href="flight_exercises.html">
+            
+                    
+                    Упражнения
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="raspberry.html">
+            
+                <a href="raspberry.html">
+            
+                    
+                    Работа с Raspberry Pi
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="image.html">
+            
+                <a href="image.html">
+            
+                    
+                    Образ для RPi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.2" data-path="wifi.html">
+            
+                <a href="wifi.html">
+            
+                    
+                    Подключение по Wi-Fi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.3" data-path="connection.html">
+            
+                <a href="connection.html">
+            
+                    
+                    Подключение к Pixracer
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.4" data-path="gcs_bridge.html">
+            
+                <a href="gcs_bridge.html">
+            
+                    
+                    QGroundControl по Wi-Fi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.5" data-path="ssh.html">
+            
+                <a href="ssh.html">
+            
+                    
+                    SSH-доступ
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.6" data-path="cli.html">
+            
+                <a href="cli.html">
+            
+                    
+                    Командная строка
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.7" data-path="selfcheck.html">
+            
+                <a href="selfcheck.html">
+            
+                    
+                    Автоматическая проверка
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7.8" data-path="web_video_server.html">
+            
+                <a href="web_video_server.html">
+            
+                    
+                    Просмотр видеострима с камер
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="programming.html">
+            
+                <a href="programming.html">
+            
+                    
+                    Программирование
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="camera_setup.html">
+            
+                <a href="camera_setup.html">
+            
+                    
+                    Настройка камеры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2" data-path="aruco.html">
+            
+                <a href="aruco.html">
+            
+                    
+                    Визуальные маркеры (ArUco)
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.2.1" data-path="aruco_marker.html">
+            
+                <a href="aruco_marker.html">
+            
+                    
+                    Распознавание маркеров
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.2.2" data-path="aruco_map.html">
+            
+                <a href="aruco_map.html">
+            
+                    
+                    Навигация по карте маркеров
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.3" data-path="optical_flow.html">
+            
+                <a href="optical_flow.html">
+            
+                    
+                    Навигация по Optical Flow
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.4" data-path="simple_offboard.html">
+            
+                <a href="simple_offboard.html">
+            
+                    
+                    Автономный полет (OFFBOARD)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.5" data-path="frames.html">
+            
+                <a href="frames.html">
+            
+                    
+                    Системы координат
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.6" data-path="snippets.html">
+            
+                <a href="snippets.html">
+            
+                    
+                    Примеры кода
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.7" data-path="laser.html">
+            
+                <a href="laser.html">
+            
+                    
+                    Лазерный дальномер
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.8" data-path="leds.html">
+            
+                <a href="leds.html">
+            
+                    
+                    Светодиодная лента
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.9" data-path="gpio.html">
+            
+                <a href="gpio.html">
+            
+                    
+                    Работа с GPIO
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.10" data-path="sonar.html">
+            
+                <a href="sonar.html">
+            
+                    
+                    Ультразвуковой дальномер
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.11" data-path="camera.html">
+            
+                <a href="camera.html">
+            
+                    
+                    Компьютерное зрение
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.12" data-path="rviz.html">
+            
+                <a href="rviz.html">
+            
+                    
+                    Визуализация с помощью rviz и rqt
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.13" data-path="autolaunch.html">
+            
+                <a href="autolaunch.html">
+            
+                    
+                    Автозапуск ПО
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.14" data-path="javascript.html">
+            
+                <a href="javascript.html">
+            
+                    
+                    Использование JavaScript
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.15" data-path="blocks.html">
+            
+                <a href="blocks.html">
+            
+                    
+                    Блочное программирование
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.16" data-path="simulation.html">
+            
+                <a href="simulation.html">
+            
+                    
+                    Симулятор
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.16.1" data-path="simulation_native.html">
+            
+                <a href="simulation_native.html">
+            
+                    
+                    Сборка на собственной машине
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.16.2" data-path="simulation_vm.html">
+            
+                <a href="simulation_vm.html">
+            
+                    
+                    Установка виртуальной машины
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.16.3" data-path="simulation_usage.html">
+            
+                <a href="simulation_usage.html">
+            
+                    
+                    Использование симулятора
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.17" data-path="ros.html">
+            
+                <a href="ros.html">
+            
+                    
+                    ROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8.18" data-path="mavros.html">
+            
+                <a href="mavros.html">
+            
+                    
+                    MAVROS
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="supplementary.html">
+            
+                <a href="supplementary.html">
+            
+                    
+                    Дополнительные материалы
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="coex_pix.html">
+            
+                <a href="coex_pix.html">
+            
+                    
+                    COEX Pix
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.2" data-path="coex_pdb.html">
+            
+                <a href="coex_pdb.html">
+            
+                    
+                    COEX PDB
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.3" data-path="coex_gps.html">
+            
+                <a href="coex_gps.html">
+            
+                    
+                    COEX GPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.4" data-path="radio_telemetry.html">
+            
+                <a href="radio_telemetry.html">
+            
+                    
+                    Радио-телеметрия
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.5" data-path="hawk_eye.html">
+            
+                <a href="hawk_eye.html">
+            
+                    
+                    Камера Hawk Eye
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.6" data-path="auto_setup.html">
+            
+                <a href="auto_setup.html">
+            
+                    
+                    Гид по автономному полету
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.7" data-path="hostname.html">
+            
+                <a href="hostname.html">
+            
+                    
+                    Имя хоста
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.8" data-path="sitl.html">
+            
+                <a href="sitl.html">
+            
+                    
+                    Симулятор
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.9" data-path="pid_tuning.html">
+            
+                <a href="pid_tuning.html">
+            
+                    
+                    Настройка PID
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.10" data-path="wall_aruco.html">
+            
+                <a href="wall_aruco.html">
+            
+                    
+                    Навигация по настенным маркерам
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.11" data-path="models.html">
+            
+                <a href="models.html">
+            
+                    
+                    CAD-модели Клевера
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.12" data-path="sitl_docker.html">
+            
+                <a href="sitl_docker.html">
+            
+                    
+                    Docker-контейнер с симулятором
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.13" data-path="ros-install.html">
+            
+                <a href="ros-install.html">
+            
+                    
+                    Установка ROS Melodic
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.14" data-path="camera_calibration.html">
+            
+                <a href="camera_calibration.html">
+            
+                    
+                    Калибровка камеры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.15" data-path="zerotire_vpn.html">
+            
+                <a href="zerotire_vpn.html">
+            
+                    
+                    Подключение к VPN ZeroTire
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.16" data-path="hamachi_vpn.html">
+            
+                <a href="hamachi_vpn.html">
+            
+                    
+                    Подключение к VPN Hamachi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.17" data-path="4g.html">
+            
+                <a href="4g.html">
+            
+                    
+                    Управление мультикоптером при помощи 4G связи
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.18" data-path="jetson_nano.html">
+            
+                <a href="jetson_nano.html">
+            
+                    
+                    Пакеты Клевера на Jetson Nano
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.19" data-path="rc.html">
+            
+                <a href="rc.html">
+            
+                    
+                    Пилотирование со смартфона
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.20" data-path="network.html">
+            
+                <a href="network.html">
+            
+                    
+                    Настройка сети RPi
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.21" data-path="uart.html">
+            
+                <a href="uart.html">
+            
+                    
+                    Интерфейс UART
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.22" data-path="px4_parameters.html">
+            
+                <a href="px4_parameters.html">
+            
+                    
+                    Параметры PX4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.23" data-path="flight_logs.html">
+            
+                <a href="flight_logs.html">
+            
+                    
+                    Работа с логами PX4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.24" data-path="firmware.html">
+            
+                <a href="firmware.html">
+            
+                    
+                    Прошивка PX4
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.25" data-path="mavlink.html">
+            
+                <a href="mavlink.html">
+            
+                    
+                    Протокол MAVLink
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.26" data-path="test_connection.html">
+            
+                <a href="test_connection.html">
+            
+                    
+                    Использование мультиметра
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.27" data-path="radioerrors.html">
+            
+                <a href="radioerrors.html">
+            
+                    
+                    Неисправности радиоаппаратуры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.28" data-path="esc_firmware.html">
+            
+                <a href="esc_firmware.html">
+            
+                    
+                    Прошивка ESC контроллеров
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.29" data-path="arduino.html">
+            
+                <a href="arduino.html">
+            
+                    
+                    Взаимодействие с Arduino
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.30" data-path="gps.html">
+            
+                <a href="gps.html">
+            
+                    
+                    Подключение GPS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.31" data-path="ir_sensors.html">
+            
+                <a href="ir_sensors.html">
+            
+                    
+                    Работа с ИК датчиками
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.32" data-path="fpv_clover_4_2.html">
+            
+                <a href="fpv_clover_4_2.html">
+            
+                    
+                    Установка FPV
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.33" data-path="fpv.html">
+            
+                <a href="fpv.html">
+            
+                    
+                    Установка FPV (Клевер 3)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.34" data-path="magnetic_grip.html">
+            
+                <a href="magnetic_grip.html">
+            
+                    
+                    Магнитный захват
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.35" data-path="mechanical_grip.html">
+            
+                <a href="mechanical_grip.html">
+            
+                    
+                    Механический захват
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.36" data-path="magnetic_grip_load.html">
+            
+                <a href="magnetic_grip_load.html">
+            
+                    
+                    Груз для магнитного захвата
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.37" data-path="sphere_guard.html">
+            
+                <a href="sphere_guard.html">
+            
+                    
+                    Сборка шаровой защиты
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.38" data-path="trainer_mode.html">
+            
+                <a href="trainer_mode.html">
+            
+                    
+                    Управление в режиме тренера
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.39" data-path="tinning.html">
+            
+                <a href="tinning.html">
+            
+                    
+                    Техника лужения
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.40" data-path="px4flow.html">
+            
+                <a href="px4flow.html">
+            
+                    
+                    Подключение PX4FLOW
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.41" data-path="connectortypes.html">
+            
+                <a href="connectortypes.html">
+            
+                    
+                    Типы силовых разъемов
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.42" data-path="esp8266_bridge.html">
+            
+                <a href="esp8266_bridge.html">
+            
+                    
+                    Модуль ESP8266
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.43" data-path="image_building.html">
+            
+                <a href="image_building.html">
+            
+                    
+                    Сборка и модификация образа Клевера
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.44" data-path="4in1.html">
+            
+                <a href="4in1.html">
+            
+                    
+                    Подключение регулятора 4 в 1
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.45" data-path="leds_old.html">
+            
+                <a href="leds_old.html">
+            
+                    
+                    Светодиодная лента (legacy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.46" data-path="contributing.html">
+            
+                <a href="contributing.html">
+            
+                    
+                    Вклад в Клевер
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.47" data-path="packages.html">
+            
+                <a href="packages.html">
+            
+                    
+                    Репозиторий пакетов COEX
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.48" data-path="migrate20.html">
+            
+                <a href="migrate20.html">
+            
+                    
+                    Переход на версию 0.20
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.49" data-path="migrate22.html">
+            
+                <a href="migrate22.html">
+            
+                    
+                    Переход на версию 0.22
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9.50" data-path="duocam.html">
+            
+                <a href="duocam.html">
+            
+                    
+                    COEX DuoCam
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.50.1" data-path="duocam_mavlink.html">
+            
+                <a href="duocam_mavlink.html">
+            
+                    
+                    Виртуальная MAVLink-камера
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="events.html">
+            
+                <a href="events.html">
+            
+                    
+                    Мероприятия
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="copterhack2022.html">
+            
+                <a href="copterhack2022.html">
+            
+                    
+                    CopterHack-2022
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.2" data-path="copterhack2021.html">
+            
+                <a href="copterhack2021.html">
+            
+                    
+                    CopterHack-2021
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.3" data-path="copterhack2019.html">
+            
+                <a href="copterhack2019.html">
+            
+                    
+                    CopterHack-2019
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.4" data-path="nti2019.html">
+            
+                <a href="nti2019.html">
+            
+                    
+                    Олимпиада НТИ 2019
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.5" data-path="robocross2019.html">
+            
+                <a href="robocross2019.html">
+            
+                    
+                    Робокросс-2019
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.6" data-path="copterhack2018.html">
+            
+                <a href="copterhack2018.html">
+            
+                    
+                    CopterHack-2018
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10.7" data-path="copterhack2017.html">
+            
+                <a href="copterhack2017.html">
+            
+                    
+                    CopterHack-2017
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="projects.html">
+            
+                <a href="projects.html">
+            
+                    
+                    Проекты на базе Клевера
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.11.1" data-path="amls.html">
+            
+                <a href="amls.html">
+            
+                    
+                    Система автоматической посадки (AMLS)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.2" data-path="remote-control-with-oculusvr.html">
+            
+                <a href="remote-control-with-oculusvr.html">
+            
+                    
+                    Разработка системы для управления БПЛА с помощью шлема виртуальной реальности
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.3" data-path="clever-show.html">
+            
+                <a href="clever-show.html">
+            
+                    
+                    Шоу коптеров
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.4" data-path="innopolis_open_L22_AERO.html">
+            
+                <a href="innopolis_open_L22_AERO.html">
+            
+                    
+                    Innopolis Open 2020 (L22_ÆRO)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.5" data-path="nti2020_p4df2.html">
+            
+                <a href="nti2020_p4df2.html">
+            
+                    
+                    Олимпиада НТИ 2020 (P4DF2)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.6" data-path="arucogenmap.html">
+            
+                <a href="arucogenmap.html">
+            
+                    
+                    Генератор ArUco карт
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.7" data-path="bigchallenges.html">
+            
+                <a href="bigchallenges.html">
+            
+                    
+                    Модель аэротакси в городе
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.8" data-path="shield.html">
+            
+                <a href="shield.html">
+            
+                    
+                    Шаровая защита коптера
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.9" data-path="race_timing_sys_copterhack.html">
+            
+                <a href="race_timing_sys_copterhack.html">
+            
+                    
+                    Система засечки для дронов
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.10" data-path="3dscan.html">
+            
+                <a href="3dscan.html">
+            
+                    
+                    Дрон для 3D-сканирования человека
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.11" data-path="face_recognition.html">
+            
+                <a href="face_recognition.html">
+            
+                    
+                    Распознавание лиц
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.12" data-path="control_emotions.html">
+            
+                <a href="control_emotions.html">
+            
+                    
+                    Управление дроном силой мысли
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.13" data-path="object_counting.html">
+            
+                <a href="object_counting.html">
+            
+                    
+                    Подсчет количества объектов c камеры
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.14" data-path="android.html">
+            
+                <a href="android.html">
+            
+                    
+                    Пульт на Андроид
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.15" data-path="clever_blocks.html">
+            
+                <a href="clever_blocks.html">
+            
+                    
+                    Блочный конструктор полета
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.16" data-path="camera_calib.html">
+            
+                <a href="camera_calib.html">
+            
+                    
+                    Калибровка камеры (legacy)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.17" data-path="human_pose_estimation_drone_control.html">
+            
+                <a href="human_pose_estimation_drone_control.html">
+            
+                    
+                    Управление дроном для оценки позы человека
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.18" data-path="agriculture.html">
+            
+                <a href="agriculture.html">
+            
+                    
+                    Распознавание видов агрокультур
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.19" data-path="advanced_clover.html">
+            
+                <a href="advanced_clover.html">
+            
+                    
+                    AdvancedClover
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.20" data-path="seeding_drone.html">
+            
+                <a href="seeding_drone.html">
+            
+                    
+                    Дрон для высаживания семян
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.21" data-path="ddrone.html">
+            
+                <a href="ddrone.html">
+            
+                    
+                    Граффити коптер D-drone
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.22" data-path="zaural_viking.html">
+            
+                <a href="zaural_viking.html">
+            
+                    
+                    Программируемый летающий автомобиль
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.23" data-path="drone-agronom.html">
+            
+                <a href="drone-agronom.html">
+            
+                    
+                    Дрон-Агроном
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.24" data-path="easytofly.html">
+            
+                <a href="easytofly.html">
+            
+                    
+                    Easy To Fly
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.25" data-path="hardaton_quidditch.html">
+            
+                <a href="hardaton_quidditch.html">
+            
+                    
+                    Хардатон Квиддич
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11.26" data-path="oktazodg.html">
+            
+                <a href="oktazodg.html">
+            
+                    
+                    Октокоптер со специфичным расположением пропеллеров
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Учебник</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="lessons.html">
+            
+                <a href="lessons.html">
+            
+                    
+                    Теория и видеоуроки
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="metod.html">
+            
+                <a href="metod.html">
+            
+                    
+                    Учебно-методическое пособие
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.3" data-path="tests.html">
+            
+                <a href="tests.html">
+            
+                    
+                    Контрольные материалы
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Опубликовано с помощью GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Система автоматической посадки (AMLS)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="autonomous-multirotor-landing-system-amls"><a name="autonomous-multirotor-landing-system-amls" class="plugin-anchor" href="#autonomous-multirotor-landing-system-amls"><i class="fa fa-link" aria-hidden="true"></i></a>Autonomous Multirotor Landing System (AMLS)</h1>
+<p><img src="../assets/amls/logo_book.png" alt="Logo" title="Logo"></p>
+<h2 id="&#x446;&#x435;&#x43B;&#x44C;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;-&#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C;-&#x434;&#x440;&#x43E;&#x43D;-&#x432;-&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438;"><a name="&#x446;&#x435;&#x43B;&#x44C;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;-&#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C;-&#x434;&#x440;&#x43E;&#x43D;-&#x432;-&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438;" class="plugin-anchor" href="#&#x446;&#x435;&#x43B;&#x44C;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;-&#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C;-&#x434;&#x440;&#x43E;&#x43D;-&#x432;-&#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x426;&#x435;&#x43B;&#x44C; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;: &#x410;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D; &#x432; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438;</h2>
+<h3 id="&#x441;&#x442;&#x430;&#x442;&#x44C;&#x44F;-&#x43E;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x435;-amls"><a name="&#x441;&#x442;&#x430;&#x442;&#x44C;&#x44F;-&#x43E;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x435;-amls" class="plugin-anchor" href="#&#x441;&#x442;&#x430;&#x442;&#x44C;&#x44F;-&#x43E;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x435;-amls"><i class="fa fa-link" aria-hidden="true"></i></a>&#x421;&#x442;&#x430;&#x442;&#x44C;&#x44F; &#x43E; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x435; AMLS</h3>
+<p>&#x412; &#x44D;&#x442;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x442;&#x44C;&#x435; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435; &#x43D;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;, &#x430; &#x438;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;, &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x43E;&#x432; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;, &#x443;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; GPS, &#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E; GPS, &#x443;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B;, &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x43E;&#x432;, &#x43A;&#x440;&#x44B;&#x448;&#x438;, &#x438;&#x437;&#x43C;&#x435;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438;, &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;. &#x422;&#x430;&#x43A;&#x436;&#x435;, &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43F;&#x440;&#x43E;&#x447;&#x442;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x442;&#x430;&#x442;&#x44C;&#x438; &#x441;&#x442;&#x430;&#x43D;&#x435;&#x442; &#x43F;&#x43E;&#x43D;&#x44F;&#x442;&#x43D;&#x43E;, &#x43A;&#x430;&#x43A; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442; AMLS!</p>
+<h3 id="&#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439;-&#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x43D;&#x430;-github"><a name="&#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439;-&#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x43D;&#x430;-github" class="plugin-anchor" href="#&#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439;-&#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439;-&#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;-&#x43D;&#x430;-github"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x439; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430; &#x43D;&#x430; GitHub</h3>
+<p><a href="https://github.com/XxOinvizioNxX/Liberty-Way" target="_blank">https://github.com/XxOinvizioNxX/Liberty-Way</a></p>
+<h3 id="&#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;&#x438;"><a name="&#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;&#x438;" class="plugin-anchor" href="#&#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;&#x438;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x420;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x447;&#x438;&#x43A;&#x438;</h3>
+<ul>
+<li><a href="mailto:xxoinvizionxx@gmail.com" target="_blank">&#x41F;&#x430;&#x432;&#x435;&#x43B; &#x41D;&#x435;&#x448;&#x443;&#x43C;&#x43E;&#x432;</a></li>
+<li><a href="mailto:astik452@gmail.com" target="_blank">&#x410;&#x43D;&#x434;&#x440;&#x435;&#x439; &#x41A;&#x430;&#x431;&#x430;&#x43B;&#x438;&#x43D;</a></li>
+<li><a href="mailto:vlad.yasn@gmail.com" target="_blank">&#x412;&#x43B;&#x430;&#x434;&#x438;&#x441;&#x43B;&#x430;&#x432; &#x42F;&#x441;&#x43D;&#x435;&#x446;&#x43A;&#x438;&#x439;</a></li>
+</ul>
+<p><img src="../assets/amls/drone_meme.jpg" alt="Drone 1" title="Drone 1"></p>
+<hr>
+<h2 id="&#x43E;&#x433;&#x43B;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;"><a name="&#x43E;&#x433;&#x43B;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;" class="plugin-anchor" href="#&#x43E;&#x433;&#x43B;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x41E;&#x433;&#x43B;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x435;</h2>
+<ul>
+<li><a href="#how-it-works">0. &#x41A;&#x430;&#x43A; &#x44D;&#x442;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442;?</a><ul>
+<li><a href="#short-video-about-our-project-clickable">0.1. &#x412;&#x438;&#x434;&#x435;&#x43E; &#x43F;&#x440;&#x43E; &#x43D;&#x430;&#x448; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;</a></li>
+</ul>
+</li>
+<li><a href="#hold-and-flight-to-waypoints-functions">1. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E; GPS &#x438; &#x43F;&#x43E;&#x43B;&#x451;&#x442; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43A;&#x430;&#x43C;</a><ul>
+<li><a href="#serial-reading">1.1. &#x427;&#x442;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x438;&#x437; UART</a></li>
+<li><a href="#ublox-parsing">1.2. &#x41F;&#x430;&#x440;&#x441;&#x438;&#x43D;&#x433; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x430; UBlox</a></li>
+<li><a href="#set-current-waypoint">1.3. &#x423;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x439; &#x43F;&#x443;&#x442;&#x435;&#x432;&#x43E;&#x439; &#x442;&#x43E;&#x447;&#x43A;&#x438;</a></li>
+<li><a href="#waypoint-edit-to-fly-to-waypoints">1.4. &#x418;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x43E;&#x447;&#x435;&#x43A; (&#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43B;&#x435;&#x442;&#x430;&#x442;&#x44C; &#x43F;&#x43E; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x430;&#x43C;)</a></li>
+<li><a href="#waypoint-stabilization">1.5. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43D;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438;</a></li>
+</ul>
+</li>
+<li><a href="#following">2. &#x421;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x437;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439;</a></li>
+<li><a href="#compass">3. &#x41A;&#x43E;&#x43C;&#x43F;&#x430;&#x441;</a></li>
+<li><a href="#altitude-stabilization-barometer">4. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; (&#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;)</a></li>
+<li><a href="#optical-stabilization">5. &#x41E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;</a><ul>
+<li><a href="#so-difficult-and-so-important">5.1. &#x422;&#x430;&#x43A; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x43E; &#x438; &#x442;&#x430;&#x43A; &#x432;&#x430;&#x436;&#x43D;&#x43E;</a></li>
+<li><a href="#first-steps">5.2. &#x41F;&#x435;&#x440;&#x432;&#x44B;&#x435; &#x448;&#x430;&#x433;&#x438;</a></li>
+<li><a href="#inverse-approach">5.3. &#x418;&#x43D;&#x432;&#x435;&#x440;&#x441;&#x438;&#x44F;</a></li>
+<li><a href="#java-edition">5.4. &#x412;&#x435;&#x440;&#x441;&#x438;&#x44F; &#x43D;&#x430; Java</a></li>
+<li><a href="#liberty-way">5.5. Liberty-Way</a></li>
+<li><a href="#communication-with-the-drone">5.6. &#x421;&#x432;&#x44F;&#x437;&#x44C; &#x441; &#x434;&#x440;&#x43E;&#x43D;&#x43E;&#x43C;</a></li>
+<li><a href="#camera-gimbal">5.7. &#x41F;&#x43E;&#x434;&#x432;&#x435;&#x441; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;</a></li>
+</ul>
+</li>
+<li><a href="#eitude-amls-platform">6. &#x41F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; Eitude</a><ul>
+<li><a href="#grabbing-system">6.1. &#x421;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x43E;&#x432;</a></li>
+<li><a href="#weather-protection-system">6.2. &#x41A;&#x440;&#x44B;&#x448;&#x430;</a></li>
+<li><a href="#platform-speedometer">6.3. &#x421;&#x43F;&#x438;&#x434;&#x43E;&#x43C;&#x435;&#x442;&#x440;</a></li>
+<li><a href="#platform-light-sensor">6.4. &#x414;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x438; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438;</a></li>
+</ul>
+</li>
+<li><a href="#conclusion">7. &#x417;&#x430;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435;</a></li>
+</ul>
+<hr>
+<h2 id="how-it-works"><a name="how-it-works" class="plugin-anchor" href="#how-it-works"><i class="fa fa-link" aria-hidden="true"></i></a>0. &#x41A;&#x430;&#x43A; &#x44D;&#x442;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x435;&#x442;? </h2>
+<p>&#x421;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430; &#x441;&#x43E;&#x441;&#x442;&#x43E;&#x438;&#x442; &#x438;&#x437; &#x434;&#x432;&#x443;&#x445; &#x447;&#x430;&#x441;&#x442;&#x435;&#x439;:</p>
+<ul>
+<li><p>&#x414;&#x440;&#x43E;&#x43D;&#x430;</p>
+<p>  <img src="../assets/amls/liberty-x_side_cutout_2_small.png" alt="Liberty-X" title="Liberty-X"></p>
+</li>
+<li><p>&#x418; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;, &#x438;&#x43B;&#x438; &#x43F;&#x43E;&#x434;&#x432;&#x438;&#x436;&#x43D;&#x43E;&#x439; (&#x43D;&#x430; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x43E;&#x431;&#x438;&#x43B;&#x435;), &#x438;&#x43B;&#x438; &#x441;&#x442;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x43E;&#x439; (&#x43D;&#x430; &#x43F;&#x43E;&#x441;&#x442;&#x430;&#x43C;&#x430;&#x442;&#x435;)</p>
+<p>  <img src="../assets/amls/platform_side_transparent.png" alt="Platform" title="Platform"></p>
+</li>
+</ul>
+<p>&#x41F;&#x43E;&#x440;&#x44F;&#x434;&#x43E;&#x43A; &#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x439; &#x432;&#x44B;&#x433;&#x43B;&#x44F;&#x434;&#x438;&#x442; &#x442;&#x430;&#x43A;:</p>
+<ul>
+<li>&#x412; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x435;, &#x434;&#x440;&#x43E;&#x43D; &#x441; &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x43A;&#x43E;&#x439; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x434;&#x430;&#x43B;&#x435;&#x43A;&#x43E; &#x43E;&#x442; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;. &#x41F;&#x43E; &#x441;&#x43E;&#x442;&#x43E;&#x432;&#x43E;&#x439; &#x441;&#x432;&#x44F;&#x437;&#x438; &#x438;&#x43B;&#x438; &#x434;&#x440;&#x443;&#x433;&#x43E;&#x43C;&#x443; &#x440;&#x430;&#x434;&#x438;&#x43E;&#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x443;, &#x435;&#x43C;&#x443; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x442;&#x441;&#x44F; GPS &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; (&#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; Liberty-Link, &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;, &#x43D;&#x435;&#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E; &#x43E;&#x442; &#x43F;&#x440;&#x43E;&#x448;&#x438;&#x432;&#x43A;&#x438; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;&#x430;. (&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x441;&#x442;&#x430;&#x432;&#x438;&#x442;&#x441;&#x44F; &#x432; &#x440;&#x430;&#x437;&#x440;&#x44B;&#x432; &#x43B;&#x438;&#x43D;&#x438;&#x438; &#x43E;&#x442; &#x43F;&#x440;&#x438;&#x451;&#x43C;&#x43D;&#x438;&#x43A;&#x430; (&#x43F;&#x443;&#x43B;&#x44C;&#x442;&#x430;) &#x434;&#x43E; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x43D;&#x438;&#x43A;&#x430;).</li>
+<li>&#x414;&#x440;&#x43E;&#x43D; &#x43B;&#x435;&#x442;&#x438;&#x442; &#x43D;&#x430; &#x44D;&#x442;&#x438; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B;. &#x412; &#x43F;&#x440;&#x43E;&#x446;&#x435;&#x441;&#x441;&#x435; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x430; &#x43E;&#x43D;&#x438; &#x43C;&#x43E;&#x433;&#x443;&#x442; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x44F;&#x442;&#x44C;&#x441;&#x44F; (&#x43D;&#x43E; &#x43D;&#x435; &#x447;&#x430;&#x441;&#x442;&#x43E;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x435; &#x43D;&#x430;&#x433;&#x440;&#x443;&#x436;&#x430;&#x442;&#x44C; &#x43A;&#x430;&#x43D;&#x430;&#x43B;).</li>
+<li>&#x41A;&#x43E;&#x433;&#x434;&#x430; &#x434;&#x440;&#x43E;&#x43D; &#x43F;&#x43E;&#x434;&#x43B;&#x435;&#x442;&#x430;&#x435;&#x442; &#x431;&#x43B;&#x438;&#x437;&#x43A;&#x43E; &#x43A; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;, &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; GPS. &#x422;&#x443;&#x442; &#x443;&#x436;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x43F;&#x435;&#x440;&#x435;&#x434;&#x430;&#x44E;&#x442;&#x441;&#x44F; &#x43F;&#x43E; &#x431;&#x43B;&#x438;&#x436;&#x43D;&#x435;&#x439; &#x440;&#x430;&#x434;&#x438;&#x43E;&#x441;&#x432;&#x44F;&#x437;&#x438; &#x438; &#x441; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x447;&#x430;&#x441;&#x442;&#x43E;&#x442;&#x43E;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x434;&#x440;&#x43E;&#x43D; &#x443;&#x441;&#x43F;&#x435;&#x432;&#x430;&#x43B; &#x437;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439;.</li>
+<li>&#x412;&#x43C;&#x435;&#x441;&#x442;&#x435; &#x441; &#x44D;&#x442;&#x438;&#x43C;, &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x441;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x440;&#x43E;&#x43D;&#x430; (&#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; &#x438; &#x434;&#x440;&#x43E;&#x43D;&#x435; &#x435;&#x441;&#x442;&#x44C; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x44B;). &#x421;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x434;&#x43E; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; 1.5-2 &#x43C;&#x435;&#x442;&#x440;&#x430; &#x43D;&#x430;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439;.</li>
+<li>&#x412; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442; &#x441;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; (&#x43F;&#x440;&#x435;&#x446;&#x438;&#x437;&#x438;&#x43E;&#x43D;&#x43D;&#x430;&#x44F;) &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x441; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;. &#x41A;&#x430;&#x43A; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x430; &#x443;&#x432;&#x438;&#x434;&#x438;&#x442; &#x43C;&#x435;&#x442;&#x43A;&#x443;, &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &quot;&#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x438;&#x442;&quot; &#x434;&#x440;&#x43E;&#x43D;.</li>
+<li>&#x41F;&#x43E;&#x441;&#x43B;&#x435; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;, GPS &#x43E;&#x442;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x43D;&#x430; &#x432;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x43F;&#x43B;&#x430;&#x43D; &#x438; &#x44F;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x442;&#x440;&#x430;&#x445;&#x443;&#x44E;&#x449;&#x438;&#x43C; (&#x43D;&#x430; &#x441;&#x43B;&#x443;&#x447;&#x430;&#x439;, &#x435;&#x441;&#x43B;&#x438; &#x447;&#x442;&#x43E;-&#x442;&#x43E; &#x43F;&#x43E;&#x439;&#x434;&#x451;&#x442; &#x43D;&#x435; &#x442;&#x430;&#x43A;, &#x441;&#x43D;&#x43E;&#x432;&#x430; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; GPS &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;).</li>
+<li>&#x412;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435; &#x437;&#x430;&#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x430; ArUco &#x43C;&#x435;&#x442;&#x43A;&#x430;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x443;&#x44E; &#x432;&#x438;&#x434;&#x438;&#x442; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x430; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; &#x438; &#x43F;&#x43E; &#x431;&#x43B;&#x438;&#x436;&#x43D;&#x435;&#x439; &#x440;&#x430;&#x434;&#x438;&#x43E;&#x441;&#x432;&#x44F;&#x437;&#x438; &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F;.</li>
+<li>&#x41E;&#x434;&#x43D;&#x43E;&#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E; &#x441; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x435;&#x439; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x430;. &#x42D;&#x442;&#x43E;&#x442; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x438;&#x441;&#x43A;&#x443;&#x441;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E; &#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x43E; &#x441;&#x43D;&#x438;&#x436;&#x430;&#x435;&#x442; setpoint &#x43F;&#x43E; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x435; (Z) &#x434;&#x43E; &#x43D;&#x435;&#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x433;&#x43E; &#x43F;&#x43E;&#x440;&#x43E;&#x433;&#x430;.</li>
+<li>&#x41A;&#x430;&#x43A; &#x442;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x441;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433;&#x43B;&#x43E; &#x43D;&#x443;&#x436;&#x43D;&#x43E;&#x433;&#x43E; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F;, &#x43F;&#x43E;&#x434;&#x430;&#x451;&#x442;&#x441;&#x44F; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x430; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; &#x434;&#x43B;&#x44F; &#x430;&#x43A;&#x442;&#x438;&#x432;&#x430;&#x446;&#x438;&#x438; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x445; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x43E;&#x432;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x44B; &#x43F;&#x43E;&#x439;&#x43C;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D;.</li>
+<li>&#x41F;&#x43E;&#x441;&#x43B;&#x435; &#x43F;&#x43E;&#x438;&#x43C;&#x43A;&#x438; &#x434;&#x440;&#x43E;&#x43D;&#x430;, &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x435;&#x433;&#x43E; &#x43E;&#x431;&#x441;&#x43B;&#x443;&#x436;&#x438;&#x432;&#x430;&#x43D;&#x438;&#x435;, &#x440;&#x430;&#x437;&#x433;&#x440;&#x443;&#x437;&#x43A;&#x430; &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x43A;&#x438; &#x438; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x442;&#x438;&#x435; &#x43A;&#x440;&#x44B;&#x448;&#x438; &#x43D;&#x430;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439; (&#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x43E;&#x442; &#x43D;&#x435;&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x43F;&#x440;&#x438;&#x44F;&#x442;&#x43D;&#x44B;&#x445; &#x43F;&#x43E;&#x433;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x439;).</li>
+<li>&#x41D;&#x430; &#x44D;&#x442;&#x43E;&#x43C; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x430; &#x437;&#x430;&#x432;&#x435;&#x440;&#x448;&#x435;&#x43D;&#x430;!</li>
+</ul>
+<h3 id="short-video-about-our-project-clickable"><a name="short-video-about-our-project-clickable" class="plugin-anchor" href="#short-video-about-our-project-clickable"><i class="fa fa-link" aria-hidden="true"></i></a>&#x412;&#x438;&#x434;&#x435;&#x43E; &#x43F;&#x440;&#x43E; &#x43D;&#x430;&#x448; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;) </h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6qjS-iq6a3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr>
+<h2 id="hold-and-flight-to-waypoints-functions"><a name="hold-and-flight-to-waypoints-functions" class="plugin-anchor" href="#hold-and-flight-to-waypoints-functions"><i class="fa fa-link" aria-hidden="true"></i></a>1. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x43F;&#x43E; GPS &#x438; &#x43F;&#x43E;&#x43B;&#x451;&#x442; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43A;&#x430;&#x43C; </h2>
+<p>&#x41A;&#x430;&#x43A; &#x443;&#x436;&#x435; &#x431;&#x44B;&#x43B;&#x43E; &#x441;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43E; &#x440;&#x430;&#x43D;&#x435;&#x435;, &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D; &quot;&#x443;&#x43D;&#x438;&#x432;&#x435;&#x440;&#x441;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x439;&quot; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; Liberty-Link, &#x43F;&#x440;&#x438;&#x43D;&#x438;&#x43C;&#x430;&#x44E;&#x449;&#x438;&#x439; &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x44B; &#x441; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x438; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x443;&#x44E;&#x449;&#x438;&#x439; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x440;&#x43E;&#x43D;&#x430;, &#x432;&#x43C;&#x435;&#x448;&#x438;&#x432;&#x430;&#x44F;&#x441;&#x44C; &#x432; &#x441;&#x438;&#x433;&#x43D;&#x430;&#x43B; &#x441; &#x43F;&#x443;&#x43B;&#x44C;&#x442;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; (&#x43F;&#x43E;&#x434;&#x440;&#x43E;&#x431;&#x43D;&#x435;&#x435; &#x43E;&#x431; &#x44D;&#x442;&#x43E;&#x43C; &#x432; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x445; &#x43F;&#x443;&#x43D;&#x43A;&#x442;&#x430;&#x445;).</p>
+<p>&#x412; Liberty-Link &#x431;&#x443;&#x434;&#x435;&#x442; &#x432;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x43D;&#x44B;&#x439; GPS &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;, &#x438;, &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x435;&#x43D;&#x43D;&#x43E;, &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; GPS &#x438; &#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43A;&#x430;&#x43C;. &#x420;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; &#x43F;&#x43E; GPS (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x364giIt6lc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>GPS-&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x431;&#x443;&#x434;&#x435;&#x442; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x438;&#x437; &#x441;&#x435;&#x43C;&#x435;&#x439;&#x441;&#x442;&#x432;&#x430; UBlox (&#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, UBlox Neo-M8). &#x423;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43E; &#x431;&#x443;&#x434;&#x435;&#x442; 1 &#x438;&#x43B;&#x438; 3 (&#x434;&#x43B;&#x44F; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43F;&#x43E;&#x433;&#x440;&#x435;&#x448;&#x43D;&#x43E;&#x441;&#x442;&#x438;) &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44F;.</p>
+<p><img src="../assets/amls/liberty-x_front_cutout_2_small_gps.png" alt="GPS Module" title="GPS Module"></p>
+<p>&#x41C;&#x43E;&#x434;&#x443;&#x43B;&#x438; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x44E;&#x442; &#x43F;&#x43E; UART-&#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;&#x443;. &#x41D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x44B; &#x43D;&#x430; &#x447;&#x430;&#x441;&#x442;&#x43E;&#x442;&#x443; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43A;&#x438; 5 &#x440;&#x430;&#x437; &#x432; &#x441;&#x435;&#x43A;&#x443;&#x43D;&#x434;&#x443;. &#x41F;&#x440;&#x43E;&#x448;&#x438;&#x432;&#x43A;&#x430; Liberty-Link &#x431;&#x443;&#x434;&#x435;&#x442; &#x447;&#x438;&#x442;&#x430;&#x442;&#x44C; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x441; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x435;&#x439; &#x438; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x442;&#x44C; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;.</p>
+<h3 id="serial-reading"><a name="serial-reading" class="plugin-anchor" href="#serial-reading"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x427;&#x442;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x438;&#x437; UART </h3>
+<p>&#x427;&#x442;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x441; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44F; &#x432; &#x431;&#x443;&#x444;&#x435;&#x440; &#x432;&#x44B;&#x433;&#x43B;&#x44F;&#x434;&#x438;&#x442; &#x442;&#x430;&#x43A;:</p>
+<pre><code class="lang-cpp"><span class="hljs-comment">// Read data from the GPS module</span>
+<span class="hljs-keyword">while</span> (GPS_serial.available() &amp;&amp; new_line_found == <span class="hljs-number">0</span>) {
+    <span class="hljs-comment">// Stay in this loop as long as there is serial information from the GPS available</span>
+    <span class="hljs-keyword">char</span> read_serial_byte = GPS_serial.read();
+    <span class="hljs-keyword">if</span> (read_serial_byte == <span class="hljs-string">&apos;$&apos;</span>) {
+        <span class="hljs-comment">// Clear the old data from the incoming buffer array if the new byte equals a $ character</span>
+        <span class="hljs-keyword">for</span> (message_counter = <span class="hljs-number">0</span>; message_counter &lt;= <span class="hljs-number">99</span>; message_counter++) {
+            incoming_message[message_counter] = <span class="hljs-string">&apos;-&apos;</span>;
+        }
+        <span class="hljs-comment">// Reset the message_counter variable because we want to start writing at the begin of the array</span>
+        message_counter = <span class="hljs-number">0</span>;
+    }
+    <span class="hljs-comment">// If the received byte does not equal a $ character, increase the message_counter variable</span>
+    <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (message_counter &lt;= <span class="hljs-number">99</span>)
+        message_counter++;
+
+    <span class="hljs-comment">// Write the new received byte to the new position in the incoming_message array</span>
+    incoming_message[message_counter] = read_serial_byte;
+
+    <span class="hljs-comment">// Every NMEA line end with a &apos;*&apos;. If this character is detected the new_line_found variable is set to 1</span>
+    <span class="hljs-keyword">if</span> (read_serial_byte == <span class="hljs-string">&apos;*&apos;</span>) new_line_found = <span class="hljs-number">1</span>;
+}
+</code></pre>
+<h3 id="ublox-parsing"><a name="ublox-parsing" class="plugin-anchor" href="#ublox-parsing"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x41F;&#x430;&#x440;&#x441;&#x438;&#x43D;&#x433; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x430; UBlox </h3>
+<p>&#x41F;&#x43E;&#x441;&#x43B;&#x435;, &#x438;&#x437; &#x437;&#x430;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x431;&#x443;&#x444;&#x435;&#x440;&#x430; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x44E;&#x442;&#x441;&#x44F; &#x448;&#x438;&#x440;&#x43E;&#x442;&#x430;, &#x434;&#x43E;&#x43B;&#x433;&#x43E;&#x442;&#x430;, &#x442;&#x438;&#x43F; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; (2D, 3D) &#x438; &#x43A;&#x43E;&#x43B;&#x438;&#x447;&#x435;&#x441;&#x442;&#x432;&#x43E; &#x441;&#x43F;&#x443;&#x442;&#x43D;&#x438;&#x43A;&#x43E;&#x432;.
+&#x41F;&#x430;&#x440;&#x441;&#x438;&#x43D;&#x433; GPS &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x43B;&#x430; UBlox &#x432;&#x44B;&#x433;&#x43B;&#x44F;&#x434;&#x438;&#x442; &#x442;&#x430;&#x43A;:</p>
+<pre><code class="lang-cpp"><span class="hljs-comment">// If the software has detected a new NMEA line it will check if it&apos;s a valid line that can be used</span>
+<span class="hljs-keyword">if</span> (new_line_found == <span class="hljs-number">1</span>) {
+    <span class="hljs-comment">// Reset the new_line_found variable for the next line</span>
+    new_line_found = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">if</span> (incoming_message[<span class="hljs-number">4</span>] == <span class="hljs-string">&apos;L&apos;</span> &amp;&amp; incoming_message[<span class="hljs-number">5</span>] == <span class="hljs-string">&apos;L&apos;</span> &amp;&amp; incoming_message[<span class="hljs-number">7</span>] == <span class="hljs-string">&apos;,&apos;</span>) {
+        <span class="hljs-comment">// When there is no GPS fix or latitude/longitude information available</span>
+        <span class="hljs-comment">// Set some variables to 0 if no valid information is found by the GPS module. This is needed for GPS lost when flying</span>
+        l_lat_gps = <span class="hljs-number">0</span>;
+        l_lon_gps = <span class="hljs-number">0</span>;
+        lat_gps_previous = <span class="hljs-number">0</span>;
+        lon_gps_previous = <span class="hljs-number">0</span>;
+        number_used_sats = <span class="hljs-number">0</span>;
+    }
+    <span class="hljs-comment">// If the line starts with GA and if there is a GPS fix we can scan the line for the latitude, longitude and number of satellites</span>
+    <span class="hljs-keyword">if</span> (incoming_message[<span class="hljs-number">4</span>] == <span class="hljs-string">&apos;G&apos;</span> &amp;&amp; incoming_message[<span class="hljs-number">5</span>] == <span class="hljs-string">&apos;A&apos;</span> &amp;&amp; (incoming_message[<span class="hljs-number">44</span>] == <span class="hljs-string">&apos;1&apos;</span> || incoming_message[<span class="hljs-number">44</span>] == <span class="hljs-string">&apos;2&apos;</span>)) {
+        <span class="hljs-comment">// Filter the minutes for the GGA line multiplied by 10</span>
+        lat_gps_actual = ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">19</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">20</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">1000000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">22</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">23</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">24</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">1000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">25</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">26</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10</span>;
+        <span class="hljs-comment">// To convert the minutes to degrees we need to divide the minutes by 6</span>
+        lat_gps_actual /= (<span class="hljs-keyword">long</span>)<span class="hljs-number">6</span>;
+        <span class="hljs-comment">// Add the degrees multiplied by 10</span>
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">17</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100000000</span>;
+        lat_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">18</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000000</span>;
+        <span class="hljs-comment">// Divide everything by 10</span>
+        lat_gps_actual /= <span class="hljs-number">10</span>;
+
+        <span class="hljs-comment">// Filter the minutes for the GGA line multiplied by 10</span>
+        lon_gps_actual = ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">33</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000000</span>; 
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">34</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">1000000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">36</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">37</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">38</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">1000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">39</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">40</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10</span>;
+        <span class="hljs-comment">// To convert the minutes to degrees we need to divide the minutes by 6</span>
+        lon_gps_actual /= (<span class="hljs-keyword">long</span>)<span class="hljs-number">6</span>;
+        <span class="hljs-comment">// Add the degrees multiplied by 10</span>
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">30</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">1000000000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">31</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">100000000</span>;
+        lon_gps_actual += ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">32</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10000000</span>;
+        <span class="hljs-comment">// Divide everything by 10</span>
+        lon_gps_actual /= <span class="hljs-number">10</span>;
+
+        <span class="hljs-keyword">if</span> (incoming_message[<span class="hljs-number">28</span>] == <span class="hljs-string">&apos;N&apos;</span>)
+            <span class="hljs-comment">// When flying north of the equator the latitude_north variable will be set to 1</span>
+            latitude_north = <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">else</span>
+            <span class="hljs-comment">// When flying south of the equator the latitude_north variable will be set to 0</span>
+            latitude_north = <span class="hljs-number">0</span>;
+
+        <span class="hljs-keyword">if</span> (incoming_message[<span class="hljs-number">42</span>] == <span class="hljs-string">&apos;E&apos;</span>)
+            <span class="hljs-comment">// When flying east of the prime meridian the longiude_east variable will be set to 1</span>
+            longiude_east = <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">else</span>
+            <span class="hljs-comment">// When flying west of the prime meridian the longiude_east variable will be set to 0</span>
+            longiude_east = <span class="hljs-number">0</span>;
+
+        <span class="hljs-comment">// Filter the number of satillites from the GGA line</span>
+        number_used_sats = ((<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">46</span>] - <span class="hljs-number">48</span>) * (<span class="hljs-keyword">long</span>)<span class="hljs-number">10</span>;
+        number_used_sats += (<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">47</span>] - <span class="hljs-number">48</span>;
+
+        <span class="hljs-keyword">if</span> (lat_gps_previous == <span class="hljs-number">0</span> &amp;&amp; lon_gps_previous == <span class="hljs-number">0</span>) {
+            <span class="hljs-comment">// If this is the first time the GPS code is used</span>
+            <span class="hljs-comment">// Set the lat_gps_previous variable to the lat_gps_actual variable</span>
+            lat_gps_previous = lat_gps_actual;
+            <span class="hljs-comment">// Set the lon_gps_previous variable to the lon_gps_actual variable</span>
+            lon_gps_previous = lon_gps_actual;
+        }
+
+        <span class="hljs-comment">// Divide the difference between the new and previous latitude by ten</span>
+        lat_gps_loop_add = (<span class="hljs-keyword">float</span>)(lat_gps_actual - lat_gps_previous) / <span class="hljs-number">10.0</span>;
+        <span class="hljs-comment">// Divide the difference between the new and previous longitude by ten</span>
+        lon_gps_loop_add = (<span class="hljs-keyword">float</span>)(lon_gps_actual - lon_gps_previous) / <span class="hljs-number">10.0</span>;
+
+        <span class="hljs-comment">// Set the l_lat_gps variable to the previous latitude value</span>
+        l_lat_gps = lat_gps_previous;
+        <span class="hljs-comment">// Set the l_lon_gps variable to the previous longitude value</span>
+        l_lon_gps = lon_gps_previous;
+
+        <span class="hljs-comment">// Remember the new latitude value in the lat_gps_previous variable for the next loop</span>
+        lat_gps_previous = lat_gps_actual;
+        <span class="hljs-comment">// Remember the new longitude value in the lat_gps_previous variable for the next loop</span>
+        lon_gps_previous = lon_gps_actual;
+    }
+
+    <span class="hljs-comment">// If the line starts with SA and if there is a GPS fix we can scan the line for the fix type (none, 2D or 3D)</span>
+    <span class="hljs-keyword">if</span> (incoming_message[<span class="hljs-number">4</span>] == <span class="hljs-string">&apos;S&apos;</span> &amp;&amp; incoming_message[<span class="hljs-number">5</span>] == <span class="hljs-string">&apos;A&apos;</span>)
+        fix_type = (<span class="hljs-keyword">int</span>)incoming_message[<span class="hljs-number">9</span>] - <span class="hljs-number">48</span>;
+
+}
+</code></pre>
+<h3 id="set-current-waypoint"><a name="set-current-waypoint" class="plugin-anchor" href="#set-current-waypoint"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x423;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x430; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x439; &#x43F;&#x443;&#x442;&#x435;&#x432;&#x43E;&#x439; &#x442;&#x43E;&#x447;&#x43A;&#x438; </h3>
+<p>&#x414;&#x430;&#x43B;&#x435;&#x435;, &#x441; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x435;&#x43D;&#x43D;&#x44B;&#x43C;&#x438; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C;&#x438; &#x438; &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x441;&#x430;&#x43C;&#x430;&#x44F; &#x43C;&#x430;&#x433;&#x438;&#x44F;. &#x414;&#x43B;&#x44F; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x444;&#x43B;&#x430;&#x433; <code>waypoint_set = 1;</code> &#x438; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x438;&#x442;&#x44C; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x435; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x44B; &#x43A;&#x430;&#x43A; waypoint:</p>
+<pre><code class="lang-cpp">l_lat_waypoint = l_lat_gps;
+l_lon_waypoint = l_lon_gps;
+</code></pre>
+<p>&#x41F;&#x43E;&#x441;&#x43B;&#x435; &#x44D;&#x442;&#x43E;&#x433;&#x43E;, &#x43D;&#x430;&#x447;&#x43D;&#x451;&#x442;&#x441;&#x44F; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x438; &#x432; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x430;&#x445; &#x438; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; PD - &#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430;. &#x414;&#x43B;&#x44F; D - &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x449;&#x435;&#x439; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; rotation memory.</p>
+<p><a name="14-waypoint-edit-to-fly-to-waypoints"></a></p>
+<h3 id="waypoint-edit-to-fly-to-waypoints"><a name="waypoint-edit-to-fly-to-waypoints" class="plugin-anchor" href="#waypoint-edit-to-fly-to-waypoints"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x418;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x442;&#x43E;&#x447;&#x435;&#x43A; (&#x427;&#x442;&#x43E;&#x431;&#x44B; &#x43B;&#x435;&#x442;&#x430;&#x442;&#x44C; &#x43F;&#x43E; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x430;&#x43C;) </h3>
+<p>&#x415;&#x441;&#x43B;&#x438; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E; &#x437;&#x430;&#x434;&#x430;&#x442;&#x44C; &#x43D;&#x43E;&#x432;&#x44B;&#x435; <code>l_lat_waypoint</code> &#x438; <code>l_lon_wayoint</code>, &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x44F;&#x449;&#x438;&#x435;&#x441;&#x44F; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x43C; &#x443;&#x434;&#x430;&#x43B;&#x435;&#x43D;&#x438;&#x438; &#x43E;&#x442; &#x434;&#x440;&#x43E;&#x43D;&#x430;, &#x43E;&#x43D; &#x43D;&#x435; &#x441;&#x43C;&#x43E;&#x436;&#x435;&#x442; &#x43D;&#x43E;&#x440;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x43B;&#x435;&#x442;&#x435;&#x442;&#x44C; &#x438; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43D;&#x430; &#x44D;&#x442;&#x438;&#x445; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x430;&#x445;. &#x414;&#x43B;&#x44F; &#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x433;&#x43E; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x435; <code>l_lat_gps_float_adjust</code> &#x438; <code>l_lon_gps_float_adjust</code>. &#x42D;&#x442;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x435; &#x442;&#x438;&#x43F;&#x430; <code>float</code>, &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x44F;&#x44F; &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435;, <code>l_lat_waypoint</code> &#x438; <code>l_lon_waypoint</code> &#x431;&#x443;&#x434;&#x443;&#x442; &#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x43E; &#x43C;&#x435;&#x43D;&#x44F;&#x442;&#x44C;&#x441;&#x44F;.</p>
+<p>&#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, &#x435;&#x441;&#x43B;&#x438; &#x432; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x43C; &#x446;&#x438;&#x43A;&#x43B;&#x435; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C; &#x43D;&#x435;&#x43A;&#x443;&#x44E; &#x432;&#x435;&#x43B;&#x438;&#x447;&#x438;&#x43D;&#x443; &#x43A; &#x44D;&#x442;&#x438;&#x43C; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x43C;:</p>
+<pre><code class="lang-cpp">l_lat_gps_float_adjust += <span class="hljs-number">0.0015</span>;
+</code></pre>
+<p>&#x41F;&#x440;&#x438; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x43C; waypoint, &#x434;&#x440;&#x43E;&#x43D; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x449;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x432; &#x437;&#x430;&#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x43C; &#x43D;&#x430;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x438;.
+&#x412; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x438;&#x43C; &#x44D;&#x442;&#x43E; &#x431;&#x443;&#x434;&#x435;&#x442; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x43F;&#x43B;&#x430;&#x432;&#x43D;&#x43E;&#x433;&#x43E; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x438; &#x437;&#x430;&#x43C;&#x435;&#x434;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43A; &#x442;&#x43E;&#x447;&#x43A;&#x435;.</p>
+<h3 id="waypoint-stabilization"><a name="waypoint-stabilization" class="plugin-anchor" href="#waypoint-stabilization"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x43A;&#x43E;&#x43D;&#x43A;&#x440;&#x435;&#x442;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x438; </h3>
+<pre><code class="lang-cpp">if (waypoint_set == 1) {                           
+    //If the waypoints are stored
+
+    // Adjust l_lat_waypoint
+    if (l_lat_gps_float_adjust &gt; 1) {
+        l_lat_waypoint++;
+        l_lat_gps_float_adjust--;
+    }
+    if (l_lat_gps_float_adjust &lt; -1) {
+        l_lat_waypoint--;
+        l_lat_gps_float_adjust++;
+    }
+
+    // Adjust l_lon_waypoint
+    if (l_lon_gps_float_adjust &gt; 1) {
+        l_lon_waypoint++;
+        l_lon_gps_float_adjust--;
+    }
+    if (l_lon_gps_float_adjust &lt; -1) {
+        l_lon_waypoint--;
+        l_lon_gps_float_adjust++;
+    }
+
+    // Calculate the latitude error between waypoint and actual position
+    gps_lon_error = l_lon_waypoint - l_lon_gps;
+    // Calculate the longitude error between waypoint and actual position
+    gps_lat_error = l_lat_gps - l_lat_waypoint;
+
+    // Subtract the current memory position to make room for the new value
+    gps_lat_total_average -= gps_lat_rotating_mem[gps_rotating_mem_location];
+    // Calculate the new change between the actual pressure and the previous measurement
+    gps_lat_rotating_mem[gps_rotating_mem_location] = gps_lat_error - gps_lat_error_previous;
+    // Add the new value to the long term average value
+    gps_lat_total_average += gps_lat_rotating_mem[gps_rotating_mem_location];
+
+    // Subtract the current memory position to make room for the new value
+    gps_lon_total_average -= gps_lon_rotating_mem[gps_rotating_mem_location];
+    // Calculate the new change between the actual pressure and the previous measurement
+    gps_lon_rotating_mem[gps_rotating_mem_location] = gps_lon_error - gps_lon_error_previous;
+    // Add the new value to the long term average value
+    gps_lon_total_average += gps_lon_rotating_mem[gps_rotating_mem_location];
+
+    // Increase the rotating memory location
+    gps_rotating_mem_location++;
+    if (gps_rotating_mem_location == 35)
+        // Start at 0 when the memory location 35 is reached
+        gps_rotating_mem_location = 0;
+
+    // Remember the error for the next loop
+    gps_lat_error_previous = gps_lat_error;
+    gps_lon_error_previous = gps_lon_error;
+
+    //Calculate the GPS pitch and roll correction as if the nose of the multicopter is facing north.
+    //The Proportional part = (float)gps_lat_error * gps_p_gain.
+    //The Derivative part = (float)gps_lat_total_average * gps_d_gain.
+    gps_pitch_adjust_north = (float)gps_lat_error * gps_p_gain + (float)gps_lat_total_average * gps_d_gain;
+    gps_roll_adjust_north = (float)gps_lon_error * gps_p_gain + (float)gps_lon_total_average * gps_d_gain;
+
+    if (!latitude_north)
+        // Invert the pitch adjustmet because the quadcopter is flying south of the equator
+        gps_pitch_adjust_north *= -1;
+    if (!longiude_east)
+        // Invert the roll adjustmet because the quadcopter is flying west of the prime meridian
+        gps_roll_adjust_north *= -1;
+
+    //Because the correction is calculated as if the nose was facing north, we need to convert it for the current heading.
+    gps_roll_adjust = ((float)gps_roll_adjust_north * cos(angle_yaw * 0.017453)) + ((float)gps_pitch_adjust_north * cos((angle_yaw - 90) * 0.017453));
+    gps_pitch_adjust = ((float)gps_pitch_adjust_north * cos(angle_yaw * 0.017453)) + ((float)gps_roll_adjust_north * cos((angle_yaw + 90) * 0.017453));
+
+    //Limit the maximum correction to 300. This way we still have full control with the pitch and roll stick on the transmitter.
+    if (gps_roll_adjust &gt; 300) gps_roll_adjust = 300;
+    if (gps_roll_adjust &lt; -300) gps_roll_adjust = -300;
+    if (gps_pitch_adjust &gt; 300) gps_pitch_adjust = 300;
+    if (gps_pitch_adjust &lt; -300) gps_pitch_adjust = -300;
+}
+</code></pre>
+<h2 id="following"><a name="following" class="plugin-anchor" href="#following"><i class="fa fa-link" aria-hidden="true"></i></a>2. &#x421;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x437;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439; </h2>
+<p>&#x41E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x439; &#x437;&#x430;&#x434;&#x430;&#x447;&#x435;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43F;&#x43E; GPS-&#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;&#x430;&#x43C; &#x441;&#x442;&#x430;&#x43B;&#x430; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43A;&#x430; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x440;&#x43E;&#x43D;&#x430;. &#x421;&#x430;&#x43C;&#x44B;&#x43C; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x44B;&#x43C; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x43C; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x438;&#x43B;&#x43E;&#x441;&#x44C; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x43C;&#x430;&#x442;&#x435;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;&#x439; &#x440;&#x430;&#x441;&#x447;&#x435;&#x442; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x440;&#x43E;&#x43D;&#x430;. &#x42D;&#x442;&#x43E; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x438;&#x431;&#x43E;&#x43B;&#x435;&#x435; &#x442;&#x43E;&#x447;&#x43D;&#x43E;&#x433;&#x43E; &#x43F;&#x43E;&#x437;&#x438;&#x446;&#x438;&#x43E;&#x43D;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x440;&#x43E;&#x43D;&#x430; &#x432; &#x43E;&#x442;&#x43D;&#x43E;&#x448;&#x435;&#x43D;&#x438;&#x438; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43E;&#x447;&#x43D;&#x43E;&#x439; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B;.</p>
+<p>&#x414;&#x43B;&#x44F; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x431;&#x44B;&#x43B; &#x43F;&#x440;&#x438;&#x434;&#x443;&#x43C;&#x430;&#x43D; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x435;&#x439;&#x448;&#x438;&#x439; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x440;&#x430;&#x441;&#x447;&#x435;&#x442;&#x430; &#x43A;&#x43E;&#x44D;&#x444;&#x444;&#x438;&#x446;&#x438;&#x435;&#x43D;&#x442;&#x430; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;. &#x420;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x43B;&#x430;&#x441;&#x44C; &#x43D;&#x430; &#x44F;&#x437;&#x44B;&#x43A;&#x435; Python. &#x41D;&#x430; &#x44D;&#x442;&#x430;&#x43F;&#x435; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x430;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x432;&#x441;&#x442;&#x430;&#x43B;&#x430; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x430; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x446;&#x438;&#x438; &#x433;&#x435;&#x43D;&#x435;&#x440;&#x430;&#x446;&#x438;&#x438; GPS-&#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442;. &#x414;&#x430;&#x431;&#x44B; &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x438;&#x442;&#x44C; &#x44D;&#x442;&#x443; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x443;, &#x431;&#x44B;&#x43B;&#x43E; &#x438;&#x441;&#x43F;&#x440;&#x43E;&#x431;&#x43E;&#x432;&#x430;&#x43D;&#x43E; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x440;&#x435;&#x441;&#x443;&#x440;&#x441;&#x43E;&#x432;: &#x43E;&#x442; &#x43E;&#x442;&#x43A;&#x440;&#x44B;&#x442;&#x44B;&#x445; &#x438;&#x441;&#x445;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x434;&#x43E;&#x432; &#x441;&#x430;&#x43C;&#x43E;&#x434;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x43D;&#x430;&#x432;&#x438;&#x433;&#x430;&#x442;&#x43E;&#x440;&#x43E;&#x432; &#x434;&#x43E; &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; API Google Maps, Yandex Maps &#x438;&#x43B;&#x438; 2GIS. &#x418; &#x43B;&#x438;&#x448;&#x44C; &#x441;&#x43F;&#x443;&#x441;&#x442;&#x44F; &#x441;&#x435;&#x43C;&#x435;&#x441;&#x442;&#x440; &#x43C;&#x44B; &#x434;&#x43E;&#x434;&#x443;&#x43C;&#x430;&#x43B;&#x438;&#x441;&#x44C; &#x434;&#x43E; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x435;&#x43D;&#x438;&#x44F; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x439; &#x43F;&#x43E; &#x43D;&#x435;&#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x439; &#x434;&#x435;&#x43B;&#x44C;&#x442;&#x435; &#x441; &#x43E;&#x442;&#x440;&#x438;&#x441;&#x43E;&#x432;&#x43A;&#x43E;&#x439; &#x432; MatPlotLib &#x43B;&#x438;&#x431;&#x43E; PyQtGraph. &#x414;&#x43E; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x432;&#x441;&#x451; &#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x43B;&#x43E;&#x441;&#x44C; &#x441; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x438;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x440;&#x438;&#x44F; &#x43F;&#x440;&#x43E;&#x448;&#x438;&#x432;&#x43A;&#x438; PX4, &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x430; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x440;&#x43E;&#x43D;&#x430; Gazebo. &#x41A;&#x430;&#x43A; &#x441;&#x43B;&#x435;&#x434;&#x441;&#x442;&#x432;&#x438;&#x435; &#x431;&#x44B;&#x43B;&#x43E; &#x43F;&#x440;&#x435;&#x43E;&#x434;&#x43E;&#x43B;&#x435;&#x43D;&#x43E; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x444;&#x43E;&#x440;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x435;&#x439; &#x432; &#x432;&#x43E;&#x43F;&#x440;&#x43E;&#x441;&#x430;&#x445; &#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x441;&#x438;&#x43C;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;&#x43E;&#x43C; &#x438; &#x443;&#x432;&#x435;&#x43B;&#x438;&#x447;&#x435;&#x43D;&#x438;&#x435;&#x43C; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438;.</p>
+<p>&#x412;&#x438;&#x434;&#x435;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x438;&#x44F; GPS &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;)</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Rg-Y_fl4BKQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x41A;&#x43E;&#x43D;&#x435;&#x447;&#x43D;&#x44B;&#x439; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442; &#x43E;&#x448;&#x438;&#x431;&#x43A;&#x438; &#x43F;&#x440;&#x435;&#x434;&#x441;&#x43A;&#x430;&#x437;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x43E;&#x440;&#x434;&#x438;&#x43D;&#x430;&#x442; &#x434;&#x43E;&#x441;&#x442;&#x438;&#x433; &#x434;&#x438;&#x430;&#x43F;&#x430;&#x437;&#x43E;&#x43D;&#x430; &#x43E;&#x442; 0 &#x434;&#x43E; 70 &#x441;&#x43C;.</p>
+<hr>
+<p><a name="3-compass"></a></p>
+<h2 id="compass"><a name="compass" class="plugin-anchor" href="#compass"><i class="fa fa-link" aria-hidden="true"></i></a>3. &#x41A;&#x43E;&#x43C;&#x43F;&#x430;&#x441; </h2>
+<p>&#x414;&#x43E; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (&#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; GPS &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;), &#x434;&#x43B;&#x44F; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x435;&#x43A;&#x442;&#x43E;&#x440;&#x430; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x43F;&#x43E; GPS &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x437;&#x43D;&#x430;&#x442;&#x44C; &#x442;&#x43E;&#x447;&#x43D;&#x44B;&#x439; &#x443;&#x433;&#x43E;&#x43B; &#x43F;&#x43E; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x441;&#x443;. &#x414;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x432;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x432; GPS &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x441;.</p>
+<p>&#x422;.&#x43A;. &#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x430; &#x43C;&#x435;&#x43D;&#x44F;&#x44E;&#x442;&#x441;&#x44F; &#x443;&#x433;&#x43B;&#x44B; &#x43A;&#x440;&#x435;&#x43D;&#x430; &#x438; &#x442;&#x430;&#x43D;&#x433;&#x430;&#x436;&#x430;, &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x441; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x441;&#x430;. &#x412; &#x43E;&#x431;&#x449;&#x435;&#x43C; &#x43F;&#x43B;&#x430;&#x43D;&#x435;, &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x443;&#x433;&#x43B;&#x430; &#x441; &#x43A;&#x43E;&#x43C;&#x430;&#x43F;&#x441;&#x430; &#x432;&#x44B;&#x433;&#x43B;&#x44F;&#x434;&#x438;&#x442; &#x442;&#x430;&#x43A;:</p>
+<pre><code class="lang-cpp">// The compass values change when the roll and pitch angle of the quadcopter changes. That&apos;s the reason that the x and y values need to calculated for a virtual horizontal position
+// The 0.0174533 value is phi/180 as the functions are in radians in stead of degrees
+compass_x_horizontal = (float)compass_x * cos(angle_pitch * -0.0174533) + (float)compass_y * sin(angle_roll * 0.0174533) * sin(angle_pitch * -0.0174533) - (float)compass_z * cos(angle_roll * 0.0174533) * sin(angle_pitch * -0.0174533);
+compass_y_horizontal = (float)compass_y * cos(angle_roll * 0.0174533) + (float)compass_z * sin(angle_roll * 0.0174533);
+
+// Now that the horizontal values are known the heading can be calculated. With the following lines of code the heading is calculated in degrees.
+// Please note that the atan2 uses radians in stead of degrees. That is why the 180/3.14 is used.
+if (compass_y_horizontal &lt; 0)actual_compass_heading = 180 + (180 + ((atan2(compass_y_horizontal, compass_x_horizontal)) * (180 / 3.14)));
+else actual_compass_heading = (atan2(compass_y_horizontal, compass_x_horizontal)) * (180 / 3.14);
+
+// Add the declination to the magnetic compass heading to get the geographic north
+actual_compass_heading += declination;
+// If the compass heading becomes smaller then 0, 360 is added to keep it in the 0 till 360 degrees range
+if (actual_compass_heading &lt; 0) actual_compass_heading += 360;
+// If the compass heading becomes larger then 360, 360 is subtracted to keep it in the 0 till 360 degrees range
+else if (actual_compass_heading &gt;= 360) actual_compass_heading -= 360;
+</code></pre>
+<p>&#x41F;&#x43E;&#x43D;&#x44F;&#x442;&#x43D;&#x43E;, &#x447;&#x442;&#x43E; &#x443;&#x433;&#x43E;&#x43B; &#x441; &#x43A;&#x43E;&#x43C;&#x43F;&#x430;&#x441;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x438; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x443;&#x433;&#x43B;&#x430; &#x440;&#x44B;&#x441;&#x43A;&#x430;&#x43D;&#x438;&#x44F; &#x434;&#x440;&#x43E;&#x43D;&#x430; &#x432; &#x446;&#x435;&#x43B;&#x43E;&#x43C;. &#x41F;&#x440;&#x438; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x430;&#x445; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43A;&#x430;&#x43C; &#x44D;&#x442;&#x43E;, &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;, &#x431;&#x443;&#x434;&#x435;&#x442; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x43E;&#x432;&#x430;&#x43D;&#x43E;. &#x41D;&#x43E; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;, &#x43E;&#x441;&#x442;&#x440;&#x43E;&#x439; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; &#x432; &#x44D;&#x442;&#x43E;&#x43C; &#x43D;&#x435;&#x442;, &#x442;.&#x43A;. &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;, &#x435;&#x451; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x435;&#x43D; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D; &#x43D;&#x435;&#x437;&#x430;&#x432;&#x438;&#x441;&#x438;&#x43C;&#x43E; &#x43E;&#x442; &#x435;&#x433;&#x43E; &#x443;&#x433;&#x43B;&#x430; &#x440;&#x44B;&#x441;&#x43A;&#x430;&#x43D;&#x438;&#x44F;. &#x422;&#x430;&#x43A;&#x436;&#x435;, &#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x443;&#x433;&#x43E;&#x43B; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x443;&#x435;&#x442;&#x441;&#x44F;.</p>
+<hr>
+<h2 id="altitude-stabilization-barometer"><a name="altitude-stabilization-barometer" class="plugin-anchor" href="#altitude-stabilization-barometer"><i class="fa fa-link" aria-hidden="true"></i></a>4. &#x423;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x435; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; (&#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;) </h2>
+<p>&#x414;&#x43E; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (&#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; GPS &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;), &#x43D;&#x430;&#x448; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; Liberty-Link &#x431;&#x443;&#x434;&#x435;&#x442; &#x438;&#x43C;&#x435;&#x442;&#x44C; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x43E;&#x434;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; &#x43F;&#x440;&#x438; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x438; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x430;.</p>
+<p>&#x41D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;, &#x442;&#x430;&#x43A; &#x436;&#x435;, &#x43A;&#x430;&#x43A; &#x438; &#x432; Liberty-Link &#x431;&#x443;&#x434;&#x443;&#x442; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x44B; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x435; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x44B; MS5611.</p>
+<p><img src="../assets/amls/ms5611_barometer.png" alt="MS5611" title="MS5611"></p>
+<p>&#x421;&#x43E;&#x433;&#x43B;&#x430;&#x441;&#x43D;&#x43E; &#x434;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x446;&#x438;&#x438;, &#x440;&#x430;&#x437;&#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x435; &#x441;&#x43E;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; 10&#x441;&#x43C;. &#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x431;&#x443;&#x434;&#x435;&#x442; &#x431;&#x440;&#x430;&#x442;&#x44C; &#x437;&#x43D;&#x430;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x438;, &#x43F;&#x440;&#x43E;&#x43F;&#x443;&#x441;&#x43A;&#x430;&#x44F; &#x435;&#x433;&#x43E; &#x447;&#x435;&#x440;&#x435;&#x437; &#x41F;&#x418;&#x414;-&#x440;&#x435;&#x433;&#x443;&#x43B;&#x44F;&#x442;&#x43E;&#x440;, &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x443; &#x434;&#x440;&#x43E;&#x43D;&#x430;, &#x438;&#x437;&#x43C;&#x435;&#x43D;&#x44F;&#x44F; Throttle (3-&#x438;&#x439; &#x43A;&#x430;&#x43D;&#x430;&#x43B;).</p>
+<p>&#x412;&#x438;&#x434;&#x435;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x443;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; &#x43F;&#x43E; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x443; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xmvcGeZzEfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x412;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x43F;&#x43E;&#x43B;&#x451;&#x442;&#x430; &#x43F;&#x43E; &#x442;&#x43E;&#x447;&#x43A;&#x430;&#x43C;, setpoint &#x434;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x431;&#x443;&#x434;&#x435;&#x442; &#x443;&#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x430;&#x442;&#x44C;&#x441;&#x44F;, &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x432;&#x44B;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; (&#x43B;&#x435;&#x442;&#x435;&#x442;&#x44C; &#x43F;&#x43E; &#x43F;&#x440;&#x44F;&#x43C;&#x43E;&#x439; &#x431;&#x435;&#x437;&#x43E;&#x43F;&#x430;&#x441;&#x43D;&#x435;&#x435; &#x43D;&#x430; &#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x435;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x438; &#x432;&#x43E; &#x447;&#x442;&#x43E; &#x43D;&#x435; &#x432;&#x440;&#x435;&#x437;&#x430;&#x442;&#x44C;&#x441;&#x44F;). &#x410; &#x432;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43F;&#x43E; GPS (&#x43A;&#x43E;&#x433;&#x434;&#x430; &#x434;&#x440;&#x43E;&#x43D; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x443;&#x436;&#x435; &#x431;&#x43B;&#x438;&#x437;&#x43A;&#x43E; &#x43A; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;), &#x434;&#x440;&#x43E;&#x43D;&#x443; &#x431;&#x443;&#x434;&#x435;&#x442; &#x437;&#x430;&#x434;&#x430;&#x43D; setpoint &#x43F;&#x43E; &#x434;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44E; &#x442;&#x430;&#x43A;&#x43E;&#x439;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x43E;&#x432;&#x430;&#x442;&#x44C; ~1.5-2&#x43C; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; &#x43D;&#x430;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439;.</p>
+<hr>
+<h2 id="optical-stabilization"><a name="optical-stabilization" class="plugin-anchor" href="#optical-stabilization"><i class="fa fa-link" aria-hidden="true"></i></a>5. &#x41E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; </h2>
+<h3 id="so-difficult-and-so-important"><a name="so-difficult-and-so-important" class="plugin-anchor" href="#so-difficult-and-so-important"><i class="fa fa-link" aria-hidden="true"></i></a>5.1. &#x422;&#x430;&#x43A; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x43E; &#x438; &#x442;&#x430;&#x43A; &#x432;&#x430;&#x436;&#x43D;&#x43E; </h3>
+<p>&#x41E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; - &#x441;&#x430;&#x43C;&#x430;&#x44F; &#x432;&#x430;&#x436;&#x43D;&#x430;&#x44F; &#x438; &#x441;&#x43B;&#x43E;&#x436;&#x43D;&#x430;&#x44F; &#x447;&#x430;&#x441;&#x442;&#x44C; &#x43D;&#x430;&#x448;&#x435;&#x433;&#x43E; &#x43F;&#x440;&#x43E;&#x435;&#x43A;&#x442;&#x430;. &#x422;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x431;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x44F; &#x44D;&#x442;&#x438;&#x43C; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430;&#x43C; &#x432; &#x43D;&#x430;&#x448;&#x438;&#x445; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F;&#x445; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D; &#x43D;&#x430;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439;. &#x422;&#x435;&#x43A;&#x443;&#x449;&#x430;&#x44F; &#x432;&#x435;&#x440;&#x441;&#x438;&#x44F; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x430; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x432;&#x43C;&#x435;&#x441;&#x442;&#x435; &#x441; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;&#x43C; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x432;&#x442;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44F;, &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x432; &#x43D;&#x430;&#x448;&#x435;&#x43C; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x43E;&#x43C; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438; &#x43D;&#x430; GitHub. &#x412; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x435;&#x43C;, &#x43A; &#x43D;&#x435;&#x439; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x438;&#x442;&#x441;&#x44F; &#x438; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x43F;&#x43E; GPS.</p>
+<h3 id="first-steps"><a name="first-steps" class="plugin-anchor" href="#first-steps"><i class="fa fa-link" aria-hidden="true"></i></a>5.2. &#x41F;&#x435;&#x440;&#x432;&#x44B;&#x435; &#x448;&#x430;&#x433;&#x438; </h3>
+<p>&#x422;&#x430;&#x43A; &#x43A;&#x430;&#x43A; &#x43C;&#x44B; &#x43D;&#x435; &#x437;&#x43D;&#x430;&#x43B;&#x438; &#x43D;&#x430;&#x441;&#x43A;&#x43E;&#x43B;&#x44C;&#x43A;&#x43E; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x43C; &#x43E;&#x43A;&#x430;&#x436;&#x435;&#x442;&#x441;&#x44F; &#x432;&#x44B;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x438;&#x435; &#x44D;&#x442;&#x43E;&#x439; &#x434;&#x430;&#x43B;&#x435;&#x43A;&#x43E; &#x43D;&#x435; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x439; &#x437;&#x430;&#x434;&#x430;&#x447;&#x438;, &#x43F;&#x435;&#x440;&#x432;&#x43E;&#x435; &#x447;&#x442;&#x43E; &#x43C;&#x44B; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x43B;&#x438;, &#x44D;&#x442;&#x43E; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x438;&#x43B;&#x438;&#x441;&#x44C;, &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x447;&#x435;&#x433;&#x43E; &#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D; &#x432; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x440;&#x430;&#x43D;&#x441;&#x442;&#x432;&#x435;.
+&#x418; &#x442;&#x443;&#x442;, &#x43F;&#x440;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438; &#x435;&#x434;&#x438;&#x43D;&#x43E;&#x433;&#x43B;&#x430;&#x441;&#x43D;&#x43E; &#x43F;&#x43E;&#x431;&#x435;&#x434;&#x438;&#x43B; &#x432;&#x430;&#x440;&#x438;&#x430;&#x43D;&#x442; &#x441; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43F;&#x440;&#x438; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x438; &#x43C;&#x435;&#x442;&#x43E;&#x43A; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x435;&#x43D;&#x43D;&#x43E;&#x439; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438;. &#x412;&#x43E; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x445;, &#x44D;&#x442;&#x43E; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x431;&#x44E;&#x434;&#x436;&#x435;&#x442;&#x43D;&#x43E;, &#x43D;&#x435; &#x43D;&#x443;&#x436;&#x43D;&#x44B; &#x434;&#x43E;&#x440;&#x43E;&#x433;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x449;&#x438;&#x435; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; GPS RTK, &#x430;, &#x432;&#x43E; &#x432;&#x442;&#x43E;&#x440;&#x44B;&#x445;, &#x434;&#x430;&#x435;&#x442; &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x43C;&#x443;&#x44E; &#x442;&#x43E;&#x447;&#x43D;&#x43E;&#x441;&#x442;&#x44C;.
+&#x41E;&#x434;&#x43D;&#x43E;&#x439; &#x438;&#x437; &#x441;&#x430;&#x43C;&#x44B;&#x445; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x445; &#x438;&#x434;&#x435;&#x439; - &#x431;&#x44B;&#x43B;&#x43E; &#x43F;&#x440;&#x438;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; Raspberry Pi &#x43A; &#x434;&#x440;&#x43E;&#x43D;&#x443;, &#x43A;&#x430;&#x43A; &#x44D;&#x442;&#x43E; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x43D;&#x43E; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; &#x41A;&#x43B;&#x435;&#x432;&#x435;&#x440;, &#x438; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43F;&#x43E; &#x43C;&#x435;&#x442;&#x43A;&#x435; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;.</p>
+<p>&#x422;&#x435;&#x441;&#x442; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F;&#x430; &#x43F;&#x435;&#x440;&#x432;&#x43E;&#x439; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/TrrxXOHAqbQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x41D;&#x43E;, &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x434;&#x44F; &#x43F;&#x430;&#x440;&#x443; &#x442;&#x435;&#x441;&#x442;&#x43E;&#x432; &#x43E;&#x442; &#x44D;&#x442;&#x43E;&#x439; &#x438;&#x434;&#x435;&#x438; &#x43C;&#x44B; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E; &#x43E;&#x442;&#x43A;&#x430;&#x437;&#x430;&#x43B;&#x438;&#x441;&#x44C;. &#x414;&#x43B;&#x44F; &#x43D;&#x430;&#x447;&#x430;&#x43B;&#x430;, Raspberry Pi &#x43E;&#x447;&#x435;&#x43D;&#x44C; &#x441;&#x43B;&#x430;&#x431;&#x430;&#x44F; &#x434;&#x43B;&#x44F; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E;&#x433;&#x43E; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x442;&#x430;&#x43A;&#x43E;&#x433;&#x43E; &#x43E;&#x431;&#x44A;&#x435;&#x43C;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445;, &#x432;&#x43E; &#x432;&#x442;&#x43E;&#x440;&#x44B;&#x445;, &#x441;&#x430;&#x43C;&#x430; &#x438;&#x434;&#x435;&#x44F; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43A;&#x438; &#x43D;&#x430; &#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x434;&#x440;&#x43E;&#x43D; &#x43A;&#x43E;&#x43C;&#x43F;&#x44C;&#x44E;&#x442;&#x435;&#x440;&#x430; &#x432;&#x44B;&#x433;&#x43B;&#x44F;&#x434;&#x438;&#x442; &#x43D;&#x435;&#x440;&#x430;&#x446;&#x438;&#x43E;&#x43D;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x439;.</p>
+<p>&#x422;&#x430;&#x43A;&#x436;&#x435;, &#x443; &#x43D;&#x430;&#x441; &#x431;&#x44B;&#x43B;&#x438; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x436;&#x443;&#x442;&#x43E;&#x447;&#x43D;&#x44B;&#x435; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F;&#x44B;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, &#x43F;&#x43E;&#x43F;&#x44B;&#x442;&#x43A;&#x438; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x446;&#x432;&#x435;&#x442;&#x43E;&#x432;&#x44B;&#x435; &#x43C;&#x430;&#x440;&#x43A;&#x435;&#x440;&#x44B; (&#x43E;&#x43A;&#x440;&#x443;&#x436;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x446;&#x432;&#x435;&#x442;&#x43E;&#x432;), &#x43D;&#x43E; &#x44D;&#x442;&#x438; &#x438;&#x434;&#x435;&#x438; &#x43D;&#x435; &#x43E;&#x43A;&#x430;&#x437;&#x430;&#x43B;&#x438;&#x441;&#x44C; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x43E;&#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43D;&#x44B;&#x43C;&#x438;.</p>
+<h3 id="inverse-approach"><a name="inverse-approach" class="plugin-anchor" href="#inverse-approach"><i class="fa fa-link" aria-hidden="true"></i></a>5.3. &#x418;&#x43D;&#x432;&#x435;&#x440;&#x441;&#x438;&#x44F; </h3>
+<p>&#x422;&#x430;&#x43A; &#x43C;&#x44B; &#x438; &#x43F;&#x440;&#x438;&#x448;&#x43B;&#x438; &#x43A; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x43C;&#x443; &#x432;&#x438;&#x434;&#x443; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;, &#x43A;&#x43E;&#x433;&#x434;&#x430; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x430; &#x441; &#x43C;&#x43E;&#x449;&#x43D;&#x44B;&#x43C; &#x43A;&#x43E;&#x43C;&#x43F;&#x44C;&#x44E;&#x442;&#x435;&#x440;&#x43E;&#x43C; &#x440;&#x430;&#x441;&#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x44B; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;, &#x430; &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435; &#x43B;&#x438;&#x448;&#x44C; ArUco 4x4 &#x43C;&#x435;&#x442;&#x43A;&#x430; &#x438; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C;, &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x449;&#x438;&#x439; &#x438;&#x43C;.</p>
+<p>&#x421;&#x430;&#x43C;&#x44B;&#x435; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x435; &#x442;&#x435;&#x441;&#x442;&#x44B;, &#x432; &#x44D;&#x442;&#x43E;&#x43C; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x435; &#x434;&#x430;&#x436;&#x435; &#x43D;&#x435;&#x442; &#x43E;&#x446;&#x435;&#x43D;&#x43A;&#x438; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x43C;&#x430;&#x440;&#x43A;&#x435;&#x440;&#x430; (pose estimation)(&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/A2oq6zCebVo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x414;&#x430;&#x43B;&#x435;&#x435;, &#x431;&#x44B;&#x43B;&#x438; &#x432;&#x43D;&#x435;&#x434;&#x440;&#x435;&#x43D;&#x44B; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x44B; Pose Estimation &#x431;&#x43B;&#x430;&#x433;&#x43E;&#x434;&#x430;&#x440;&#x44F; &#x431;&#x438;&#x431;&#x43B;&#x438;&#x43E;&#x442;&#x435;&#x43A;&#x435; OpenCV. &#x41F;&#x435;&#x440;&#x432;&#x44B;&#x435; &#x442;&#x435;&#x441;&#x442;&#x44B; &#x43F;&#x43E;&#x43A;&#x430;&#x437;&#x430;&#x43B;&#x438; &#x447;&#x442;&#x43E; &#x43C;&#x44B; &#x43D;&#x430; &#x432;&#x435;&#x440;&#x43D;&#x43E;&#x43C; &#x43F;&#x443;&#x442;&#x438;!</p>
+<p>Pose Estimation Pyhton (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kE3UmJZ00so" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x41D;&#x43E;, &#x43F;&#x43E; &#x43F;&#x440;&#x435;&#x436;&#x43D;&#x435;&#x43C;&#x443;, &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x44B; &#x431;&#x44B;&#x43B;&#x438; &#x434;&#x430;&#x43B;&#x435;&#x43A;&#x438; &#x43E;&#x442; &#x438;&#x434;&#x435;&#x430;&#x43B;&#x430;. &#x41D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, &#x442;.&#x43A;. &#x43A;&#x43E;&#x434; &#x43F;&#x438;&#x441;&#x430;&#x43B;&#x441;&#x44F; &#x43D;&#x430; Python (<a href="https://github.com/XxOinvizioNxX/Liberty-X_Point" target="_blank">https://github.com/XxOinvizioNxX/Liberty-X_Point</a>), &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x44C; &#x431;&#x44B;&#x43B;&#x430; &#x43D;&#x435; &#x432;&#x435;&#x43B;&#x438;&#x43A;&#x430;, &#x442;&#x430;&#x43A;&#x436;&#x435;, &#x43D;&#x435; &#x431;&#x44B;&#x43B;&#x43E; &#x43D;&#x43E;&#x440;&#x43C;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x433;&#x43E; &#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x44F; &#x43F;&#x43E;&#x442;&#x43E;&#x43A;&#x43E;&#x432;. &#x41F;&#x43E;&#x44D;&#x442;&#x43E;&#x43C;&#x443;, &#x43F;&#x440;&#x438;&#x448;&#x43B;&#x43E;&#x441;&#x44C; &#x447;&#x442;&#x43E;-&#x442;&#x43E; &#x43C;&#x435;&#x43D;&#x44F;&#x442;&#x44C;.</p>
+<h3 id="java-edition"><a name="java-edition" class="plugin-anchor" href="#java-edition"><i class="fa fa-link" aria-hidden="true"></i></a>5.4. &#x412;&#x435;&#x440;&#x441;&#x438;&#x44F; &#x43D;&#x430; Java </h3>
+<p>&#x412;&#x437;&#x432;&#x435;&#x441;&#x438;&#x432; &#x432;&#x441;&#x435; &#x417;&#x410; &#x438; &#x41F;&#x420;&#x41E;&#x422;&#x418;&#x412;, &#x431;&#x44B;&#x43B;&#x43E; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x43E; &#x43F;&#x435;&#x440;&#x435;&#x43F;&#x438;&#x441;&#x430;&#x442;&#x44C; &#x432;&#x441;&#x44E; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x443;&#x44E; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44E; &#x43D;&#x430; Java. &#x422;&#x430;&#x43A; &#x438; &#x43F;&#x43E;&#x44F;&#x432;&#x438;&#x43B;&#x430;&#x441;&#x44C; &#x43F;&#x435;&#x440;&#x432;&#x430;&#x44F; &#x432;&#x435;&#x440;&#x441;&#x438;&#x44F; Liberty-Way. &#x41D;&#x430; &#x44D;&#x442;&#x43E;&#x442; &#x440;&#x430;&#x437; &#x431;&#x44B;&#x43B;&#x43E; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x43E; &#x43F;&#x43E;&#x434;&#x43E;&#x439;&#x442;&#x438; &#x43A; &#x41E;&#x41E;&#x41F; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;, &#x438;, &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43D;&#x435;&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x438;&#x43B;&#x441;&#x44F; &#x43E;&#x442;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x439; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x438; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438;.</p>
+<p>&#x422;&#x435;&#x441;&#x442; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x43D;&#x430; Liberty-Way v.beta_0.0.1 (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8VAobWPFG8g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<h3 id="liberty-way"><a name="liberty-way" class="plugin-anchor" href="#liberty-way"><i class="fa fa-link" aria-hidden="true"></i></a>5.5. Liberty-Way </h3>
+<p>&#x414;&#x430;&#x43B;&#x435;&#x435; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43E;&#x432;&#x430;&#x43B;&#x43E; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x434;&#x43E;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x43E;&#x43A; &#x438; &#x438;&#x441;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x439; &#x43E;&#x448;&#x438;&#x431;&#x43E;&#x43A;. &#x412; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;&#x435;, Liberty-Way &#x43F;&#x440;&#x435;&#x434;&#x441;&#x442;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442; &#x441;&#x43E;&#x431;&#x43E;&#x439; &#x43A;&#x440;&#x43E;&#x441;&#x441;&#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x435; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;, &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x449;&#x435;&#x435;&#x441;&#x44F; &#x447;&#x435;&#x440;&#x435;&#x437; &#x432;&#x435;&#x431; &#x441;&#x430;&#x440;&#x432;&#x430;&#x440;, &#x447;&#x442;&#x43E; &#x43E;&#x447;&#x435;&#x43D;&#x44C; &#x443;&#x434;&#x43E;&#x431;&#x43D;&#x43E; &#x434;&#x43B;&#x44F; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x438; &#x43E;&#x442;&#x43B;&#x430;&#x434;&#x43A;&#x438;. &#x422;&#x430;&#x43A;&#x436;&#x435;, &#x432; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x445; &#x432;&#x435;&#x440;&#x441;&#x438;&#x44F;&#x445; (beta_1.0.3 - beta_1.1.2) &#x431;&#x44B;&#x43B; &#x432;&#x43D;&#x435;&#x434;&#x440;&#x451;&#x43D; blackbox (&#x434;&#x43B;&#x44F; &#x437;&#x430;&#x43F;&#x438;&#x441;&#x438; &#x43B;&#x43E;&#x433;&#x43E;&#x432;), &#x430; &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43E;&#x431;&#x449;&#x435;&#x43D;&#x438;&#x435; &#x441; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x43E;&#x439; &#x438; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x434;&#x440;&#x443;&#x433;&#x438;&#x445; &#x43D;&#x435;&#x43E;&#x431;&#x445;&#x43E;&#x434;&#x438;&#x43C;&#x44B;&#x445; &#x430;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C;&#x43E;&#x432;.</p>
+<p>&#x41F;&#x43E;&#x43B;&#x43D;&#x43E;&#x435; &#x43E;&#x43F;&#x438;&#x441;&#x430;&#x43D;&#x438;&#x435;, &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x44F; &#x432;&#x441;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438;, &#x437;&#x430;&#x43F;&#x443;&#x441;&#x43A; &#x438; &#x442;.&#x434;. &#x432;&#x44B; &#x43C;&#x43E;&#x436;&#x435;&#x442;&#x435; &#x43D;&#x430;&#x439;&#x442;&#x438; &#x432; &#x43D;&#x430;&#x448;&#x435;&#x43C; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438; &#x43D;&#x430; GitHub: <a href="https://github.com/XxOinvizioNxX/Liberty-Way" target="_blank">https://github.com/XxOinvizioNxX/Liberty-Way</a>.</p>
+<p>&#x412;&#x438;&#x434;&#x435;&#x43E; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x441;&#x442;&#x430;&#x442;&#x438;&#x447;&#x43D;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/adR38R27MEU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Liberty-Way &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x434;&#x430;&#x436;&#x435; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &quot;&#x431;&#x440;&#x43E;&#x448;&#x435;&#x43D;&#x43D;&#x44B;&#x439;&quot; &#x434;&#x440;&#x43E;&#x43D; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gAaGQSC-r2g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x414;&#x430;, &#x43D;&#x430; &#x432;&#x438;&#x434;&#x435;&#x43E; &#x435;&#x441;&#x442;&#x44C; &#x43D;&#x435;&#x431;&#x43E;&#x43B;&#x44C;&#x448;&#x43E;&#x439; &#x431;&#x430;&#x433; &#x441; &#x43F;&#x43E;&#x432;&#x43E;&#x440;&#x43E;&#x442;&#x43E;&#x43C;, &#x432; &#x43D;&#x43E;&#x432;&#x43E;&#x43C; &#x440;&#x435;&#x43B;&#x438;&#x437;&#x435; &#x43E;&#x43D; &#x438;&#x441;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;</p>
+<p>&#x418;, &#x43A;&#x43E;&#x43D;&#x435;&#x447;&#x43D;&#x43E; &#x436;&#x435;, &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430; &#x432; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x438; (&#x442;&#x435;&#x441;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43B;&#x43E;&#x441;&#x44C; &#x435;&#x449;&#x451; &#x43D;&#x430; beta_0.0.3)(&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8vB-8QIBoJU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x412;&#x441;&#x435; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x435; &#x43D;&#x430;&#x441;&#x442;&#x440;&#x43E;&#x439;&#x43A;&#x438; &#x443;&#x434;&#x43E;&#x431;&#x43D;&#x43E; &#x432;&#x44B;&#x43D;&#x435;&#x441;&#x435;&#x43D;&#x44B; &#x432; &#x43E;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x44B;&#x439; JSON-&#x444;&#x430;&#x439;&#x43B;&#x44B; (settings, PID), &#x447;&#x442;&#x43E; &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x431;&#x435;&#x437; &#x43F;&#x435;&#x440;&#x435;&#x441;&#x431;&#x43E;&#x440;&#x43A;&#x438; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E; &#x43C;&#x435;&#x43D;&#x44F;&#x442;&#x44C; &#x43D;&#x443;&#x436;&#x43D;&#x44B;&#x435; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440;&#x44B;. &#x424;&#x430;&#x43A;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x438;, &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x43F;&#x443;&#x441;&#x43A;&#x430; &#x43F;&#x440;&#x438;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x44F;, &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x441;&#x43A;&#x430;&#x447;&#x430;&#x442;&#x44C; &#x43F;&#x43E;&#x441;&#x43B;&#x435;&#x434;&#x43D;&#x438;&#x439; &#x440;&#x435;&#x43B;&#x438;&#x437;, &#x440;&#x430;&#x441;&#x43F;&#x430;&#x43A;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x430;&#x440;&#x445;&#x438;&#x432; &#x438; &#x437;&#x430;&#x43F;&#x443;&#x441;&#x442;&#x438;&#x442;&#x44C; &#x447;&#x435;&#x440;&#x435;&#x437; &#x441;&#x43E;&#x43E;&#x442;&#x432;&#x435;&#x442;&#x441;&#x442;&#x432;&#x443;&#x44E;&#x449;&#x438;&#x439; &#x432;&#x430;&#x448;&#x435;&#x439; &#x41E;&#x421; &#x43B;&#x430;&#x443;&#x43D;&#x447;&#x435;&#x440;.</p>
+<h3 id="communication-with-the-drone"><a name="communication-with-the-drone" class="plugin-anchor" href="#communication-with-the-drone"><i class="fa fa-link" aria-hidden="true"></i></a>5.6. &#x421;&#x432;&#x44F;&#x437;&#x44C; &#x441; &#x434;&#x440;&#x43E;&#x43D;&#x43E;&#x43C; </h3>
+<p>Liberty-Way &#x43F;&#x43E;&#x434;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43A; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44E; Liberty-Link, &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x43D;&#x43E;&#x43C;&#x443; &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435;, &#x438;, &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x443;&#x435;&#x442; &#x435;&#x433;&#x43E; &#x43F;&#x43E;&#x43B;&#x43E;&#x436;&#x435;&#x43D;&#x438;&#x435;, &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x44F; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x43C;&#x443;&#x44E; &#x43F;&#x435;&#x440;&#x432;&#x44B;&#x43C;&#x438; &#x447;&#x435;&#x442;&#x44B;&#x440;&#x44C;&#x43C;&#x44F; &#x43E;&#x441;&#x43D;&#x43E;&#x432;&#x43D;&#x44B;&#x43C;&#x438; &#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x430;&#x43C;&#x438; &#x43F;&#x443;&#x43B;&#x44C;&#x442;&#x430;. &#x417;&#x430; &#x43E;&#x434;&#x438;&#x43D; &#x446;&#x438;&#x43A;&#x43B; (&#x43A;&#x430;&#x436;&#x434;&#x44B;&#x439; &#x444;&#x440;&#x435;&#x439;&#x43C; &#x441; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;) &#x43D;&#x430; &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x43E;&#x442;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x442;&#x441;&#x44F; 12 &#x431;&#x430;&#x439;&#x442; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x43A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438;:
+<img src="../assets/amls/data_structure.png" alt="Packet" title="Data packet"></p>
+<ul>
+<li><strong>Roll bytes</strong> - &#x41A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x43A;&#x440;&#x435;&#x43D;&#x430; (1000-2000)</li>
+<li><strong>Pitch bytes</strong> - &#x41A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x442;&#x430;&#x43D;&#x433;&#x430;&#x436;&#x430; (1000-2000)</li>
+<li><strong>Yaw bytes</strong> - &#x41A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x440;&#x44B;&#x441;&#x43A;&#x430;&#x43D;&#x438;&#x44F; (1000-2000)</li>
+<li><strong>Altitude bytes</strong> - &#x41A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x433;&#x430;&#x437;&#x430; (&#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B;)</li>
+<li><strong>Service info</strong> - &#x421;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x438;&#x435; &#x434;&#x440;&#x43E;&#x43D;&#x430; (0 - &#x41A;&#x43E;&#x440;&#x440;&#x435;&#x43A;&#x442;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x430; &#x43E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x430;, 1 - &#x421;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F;, 2 - &#x421;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x43E; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x443; (&#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;&#x430; &#x43D;&#x435; &#x432;&#x43D;&#x435;&#x434;&#x440;&#x435;&#x43D;&#x430;), 3 - &#x41E;&#x442;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; &#x43C;&#x43E;&#x442;&#x43E;&#x440;&#x43E;&#x432;)</li>
+<li><strong>Check byte</strong> - XOR &#x447;&#x435;&#x43A;-&#x441;&#x443;&#x43C;&#x43C;&#x430;</li>
+<li><strong>Data suffix</strong> - &#x443;&#x43D;&#x438;&#x43A;&#x430;&#x43B;&#x44C;&#x43D;&#x430;&#x44F; &#x43F;&#x430;&#x440;&#x430; ASCII &#x441;&#x438;&#x43C;&#x432;&#x43E;&#x43B;&#x43E;&#x432;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43E;&#x431;&#x43E;&#x437;&#x43D;&#x430;&#x447;&#x438;&#x442;&#x44C; &#x43A;&#x43E;&#x43D;&#x435;&#x446; &#x43F;&#x430;&#x43A;&#x435;&#x442;&#x430;</li>
+</ul>
+<p>&#x41D;&#x430; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D;&#x435; &#x434;&#x440;&#x43E;&#x43D;&#x430; (&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44F; Liberty-Link), &#x447;&#x442;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x445; &#x43F;&#x440;&#x43E;&#x438;&#x441;&#x445;&#x43E;&#x434;&#x438;&#x442; &#x441;&#x43B;&#x435;&#x434;&#x443;&#x44E;&#x449;&#x438;&#x43C; &#x43E;&#x431;&#x440;&#x430;&#x437;&#x43E;&#x43C;:</p>
+<pre><code class="lang-cpp"><span class="hljs-keyword">while</span> (Telemetry_serial.available()) {
+    tdc_receive_buffer[tdc_receive_buffer_counter] = Telemetry_serial.read();
+    <span class="hljs-keyword">if</span> (tdc_receive_byte_previous == <span class="hljs-string">&apos;L&apos;</span> &amp;&amp; tdc_receive_buffer[tdc_receive_buffer_counter] == <span class="hljs-string">&apos;X&apos;</span>) {
+        tdc_receive_buffer_counter = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">if</span> (tdc_receive_start_detect &gt;= <span class="hljs-number">2</span>) {
+            tdc_check_byte = <span class="hljs-number">0</span>;
+            <span class="hljs-keyword">for</span> (tdc_temp_byte = <span class="hljs-number">0</span>; tdc_temp_byte &lt;= <span class="hljs-number">8</span>; tdc_temp_byte++)
+                tdc_check_byte ^= tdc_receive_buffer[tdc_temp_byte];
+            <span class="hljs-keyword">if</span> (tdc_check_byte == tdc_receive_buffer[<span class="hljs-number">9</span>]) {
+                direct_roll_control = (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">1</span>] | (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">0</span>] &lt;&lt; <span class="hljs-number">8</span>;
+                direct_pitch_control = (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">3</span>] | (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">2</span>] &lt;&lt; <span class="hljs-number">8</span>;
+                direct_yaw_control = (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">5</span>] | (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">4</span>] &lt;&lt; <span class="hljs-number">8</span>;
+                direct_throttle_control = (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">7</span>] | (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">6</span>] &lt;&lt; <span class="hljs-number">8</span>;
+                direct_service_info = (<span class="hljs-keyword">uint32_t</span>)tdc_receive_buffer[<span class="hljs-number">8</span>];
+
+                <span class="hljs-keyword">if</span> (direct_roll_control &gt; <span class="hljs-number">1100</span> &amp;&amp; direct_roll_control &lt; <span class="hljs-number">1900</span> &amp;&amp;
+                    direct_pitch_control &gt; <span class="hljs-number">1100</span> &amp;&amp; direct_pitch_control &lt; <span class="hljs-number">1900</span> &amp;&amp;
+                    direct_yaw_control &gt; <span class="hljs-number">1100</span> &amp;&amp; direct_yaw_control &lt; <span class="hljs-number">1900</span> &amp;&amp;
+                    direct_throttle_control &gt; <span class="hljs-number">1100</span> &amp;&amp; direct_throttle_control &lt; <span class="hljs-number">1900</span> &amp;&amp;
+                    <span class="hljs-comment">/*flight_mode == 2 &amp;&amp;*/</span> channel_7 &gt; <span class="hljs-number">1500</span>) {
+                    tdc_timer = millis();
+                    tdc_working = <span class="hljs-number">1</span>;
+                }
+                <span class="hljs-keyword">else</span>
+                    tdc_working = <span class="hljs-number">0</span>;
+            }
+            <span class="hljs-keyword">else</span> {
+                direct_roll_control = <span class="hljs-number">1500</span>;
+                direct_pitch_control = <span class="hljs-number">1500</span>;
+                tdc_working = <span class="hljs-number">0</span>;
+            }
+        } <span class="hljs-keyword">else</span>
+            tdc_receive_start_detect++;
+    }
+    <span class="hljs-keyword">else</span> {
+        tdc_receive_byte_previous = tdc_receive_buffer[tdc_receive_buffer_counter];
+        tdc_receive_buffer_counter++;
+        <span class="hljs-keyword">if</span> (tdc_receive_buffer_counter &gt; <span class="hljs-number">11</span>)tdc_receive_buffer_counter = <span class="hljs-number">0</span>;
+    }
+}
+<span class="hljs-keyword">if</span> (millis() - tdc_timer &gt;= <span class="hljs-number">500</span>) {
+    tdc_working = <span class="hljs-number">0</span>;
+}
+<span class="hljs-keyword">if</span> (tdc_working &amp;&amp; direct_service_info == <span class="hljs-number">2</span> &amp;&amp; !return_to_home_step)
+    return_to_home_step = <span class="hljs-number">3</span>;
+<span class="hljs-keyword">if</span> (!tdc_working)
+    return_to_home_step = <span class="hljs-number">0</span>;
+<span class="hljs-keyword">if</span> (!tdc_working || direct_service_info &lt; <span class="hljs-number">1</span>) {
+    direct_roll_control = <span class="hljs-number">1500</span>;
+    direct_pitch_control = <span class="hljs-number">1500</span>;
+    direct_yaw_control = <span class="hljs-number">1500</span>;
+    direct_throttle_control = <span class="hljs-number">1500</span>;
+}
+</code></pre>
+<p>&#x412; &#x440;&#x435;&#x437;&#x443;&#x43B;&#x44C;&#x442;&#x430;&#x442;&#x435;, &#x438;&#x43C;&#x435;&#x44E;&#x442;&#x441;&#x44F; 4 &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x44B;&#x435;:</p>
+<pre><code>direct_roll_control
+direct_pitch_control
+direct_yaw_control
+direct_throttle_control
+</code></pre><p>&#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43D;&#x430;&#x43F;&#x440;&#x44F;&#x43C;&#x443;&#x44E; &#x43F;&#x440;&#x438;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x44E;&#x442;&#x441;&#x44F; &#x43A; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x43C;, &#x43F;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x430;&#x44E;&#x449;&#x438;&#x43C; &#x441; &#x43F;&#x443;&#x43B;&#x44C;&#x442;&#x430; &#x443;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;.
+&#x412;&#x435;&#x440;&#x43E;&#x44F;&#x442;&#x43D;&#x43E;, &#x432; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x435;&#x43C;, &#x431;&#x443;&#x434;&#x443;&#x442; &#x434;&#x43E;&#x431;&#x430;&#x432;&#x43B;&#x435;&#x43D;&#x44B; &#x438; &#x434;&#x440;&#x443;&#x433;&#x438;&#x435; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x435;, &#x43A;&#x430;&#x43A; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x443;&#x43C;, &#x434;&#x43B;&#x44F; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x44B; &#x441; GPS. &#x421;&#x43B;&#x435;&#x434;&#x438;&#x442;&#x435; &#x437;&#x430; &#x43E;&#x431;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x438;&#x44F;&#x43C;&#x438; &#x432; &#x43D;&#x430;&#x448;&#x435;&#x43C; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438;.</p>
+<h3 id="camera-gimbal"><a name="camera-gimbal" class="plugin-anchor" href="#camera-gimbal"><i class="fa fa-link" aria-hidden="true"></i></a>5.7. &#x41F;&#x43E;&#x434;&#x432;&#x435;&#x441; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B; </h3>
+<p>&#x414;&#x43B;&#x44F; &#x44D;&#x43A;&#x441;&#x43F;&#x43B;&#x443;&#x430;&#x442;&#x430;&#x446;&#x438;&#x438; &#x43D;&#x430;&#x448;&#x435;&#x439; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x432; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F;&#x445;, &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x43C;&#x438;&#x43D;&#x438;&#x43C;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x442;&#x440;&#x44F;&#x441;&#x43A;&#x443; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;, &#x447;&#x442;&#x43E;&#x431;&#x44B; &#x43D;&#x435; &#x43F;&#x43E;&#x442;&#x435;&#x440;&#x44F;&#x442;&#x44C; &#x43C;&#x435;&#x442;&#x43A;&#x443; &#x43D;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x435;. &#x414;&#x43B;&#x44F; &#x44D;&#x442;&#x43E;&#x433;&#x43E;, &#x431;&#x44B;&#x43B;&#x430; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x43D;&#x430; 3&#x414;-&#x43C;&#x43E;&#x434;&#x435;&#x43B;&#x44C; &#x43A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x441;&#x430; &#x43E;&#x442; &#x434;&#x440;&#x43E;&#x43D;&#x430; &#x43A; &#x43D;&#x430;&#x448;&#x435;&#x439; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; &#x434;&#x43B;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x43E;&#x431;&#x44B;&#x447;&#x43D;&#x43E;&#x439; &#x432;&#x435;&#x431; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;</p>
+<p>&#x41A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x434;&#x43B;&#x44F; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;:</p>
+<p> <img src="../assets/amls/gimbal_camera_mount.png" alt="Camera mount" title="Camera mount"></p>
+<p>&#x41A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x430; (&#x444;&#x435;&#x440;&#x440;&#x438;&#x442;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x430; &#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x432;&#x43E;&#x434;&#x435;) &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B;:</p>
+<p> <img src="../assets/amls/gimbal_filter_mount.png" alt="Filter mount" title="Filter mount"></p>
+<p>&#x41A;&#x440;&#x435;&#x43F;&#x43B;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430;&#x449;&#x451;&#x43B;&#x43E;&#x43A; &quot;&#x43A;&#x440;&#x430;&#x431;&#x438;&#x43A;&#x43E;&#x432;&quot; &#x43D;&#x430; &#x43F;&#x43E;&#x434;&#x43B;&#x43E;&#x436;&#x43A;&#x443; &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x441;&#x430;:</p>
+<p> <img src="../assets/amls/gimbal_plane_mount.png" alt="Plane mount" title="Plane mount"></p>
+<p>&#x41F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x43D;&#x44B;&#x439; &#x432;&#x438;&#x434; &#x441;&#x431;&#x43E;&#x440;&#x43A;&#x438; &#x432;&#x441;&#x435;&#x433;&#x43E; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C;&#x430; &#x43F;&#x43E;&#x434;&#x432;&#x435;&#x441;&#x430;:</p>
+<p> <img src="../assets/amls/gimbal_assembly.png" alt="Assembly" title="Assembly"></p>
+<hr>
+<h2 id="eitude-amls-platform"><a name="eitude-amls-platform" class="plugin-anchor" href="#eitude-amls-platform"><i class="fa fa-link" aria-hidden="true"></i></a>6. &#x41F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; Eitude </h2>
+<p>&#x41F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; - &#x432;&#x437;&#x430;&#x438;&#x43C;&#x43E;&#x441;&#x432;&#x44F;&#x437;&#x430;&#x43D;&#x43D;&#x430;&#x44F; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430; &#x434;&#x43B;&#x44F; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x434;&#x440;&#x43E;&#x43D;&#x430;. &#x423;&#x43F;&#x440;&#x430;&#x432;&#x43B;&#x44F;&#x442;&#x44C;&#x441;&#x44F; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x447;&#x435;&#x440;&#x435;&#x437; Serial-&#x438;&#x43D;&#x442;&#x435;&#x440;&#x444;&#x435;&#x439;&#x441;, &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; G-Code &#x43A;&#x43E;&#x43C;&#x430;&#x43D;&#x434;:
+&#x422;&#x435;&#x43A;&#x443;&#x449;&#x438;&#x439; &#x43A;&#x43E;&#x434; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x432; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438; Eitude &#x43D;&#x430; GitHub: <a href="https://github.com/XxOinvizioNxX/Eitude" target="_blank">https://github.com/XxOinvizioNxX/Eitude</a>.</p>
+<h3 id="grabbing-system"><a name="grabbing-system" class="plugin-anchor" href="#grabbing-system"><i class="fa fa-link" aria-hidden="true"></i></a>6.1. &#x421;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x430; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x43E;&#x432; </h3>
+<p>&#x41D;&#x43E; &#x432;&#x435;&#x434;&#x44C; &#x43B;&#x43E;&#x433;&#x438;&#x447;&#x43D;&#x43E;, &#x447;&#x442;&#x43E; &#x432; &#x440;&#x435;&#x430;&#x43B;&#x44C;&#x43D;&#x43E;&#x441;&#x442;&#x438;, &#x431;&#x435;&#x437; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x44B; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x43E;&#x432; &#x43D;&#x435;&#x432;&#x43E;&#x437;&#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x438;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D;, &#x43D;&#x435; &#x43F;&#x43E;&#x432;&#x440;&#x435;&#x434;&#x438;&#x432; &#x43D;&#x438;&#x43A;&#x43E;&#x433;&#x43E;. &#x41F;&#x43E;&#x43A;&#x430; &#x447;&#x442;&#x43E;, &#x443; &#x43D;&#x430;&#x441; &#x435;&#x441;&#x442;&#x44C; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F; &#x432; &#x432;&#x438;&#x434;&#x435; 3&#x414; &#x43C;&#x43E;&#x434;&#x435;&#x43B;&#x438;. &#x414;&#x43B;&#x44F; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x430; &#x434;&#x440;&#x43E;&#x43D;&#x430; &#x431;&#x443;&#x434;&#x443;&#x442; &#x438;&#x437;&#x433;&#x43E;&#x442;&#x43E;&#x432;&#x43B;&#x435;&#x43D;&#x44B; 4 &#x434;&#x43B;&#x438;&#x43D;&#x43D;&#x44B;&#x445; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x430; &#x441; &#x43A;&#x440;&#x44E;&#x447;&#x43A;&#x430;&#x43C;&#x438; &#x43D;&#x430; &#x43A;&#x43E;&#x43D;&#x446;&#x430;&#x445; &#x438; &#x43F;&#x43E; &#x43C;&#x435;&#x440;&#x435; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x43A;&#x43E;&#x43F;&#x442;&#x435;&#x440;&#x430; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443;, &#x448;&#x430;&#x441;&#x441;&#x438; &#x431;&#x443;&#x434;&#x443;&#x442; &#x437;&#x430;&#x445;&#x432;&#x430;&#x442;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x44D;&#x442;&#x438;&#x43C;&#x438; 4-&#x43C;&#x44F; &#x43A;&#x440;&#x44E;&#x447;&#x43A;&#x430;&#x43C;&#x438; &#x438; &#x443;&#x434;&#x435;&#x440;&#x436;&#x438;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x43F;&#x43E; &#x43C;&#x435;&#x440;&#x435; &#x441;&#x43D;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F; &#x438; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x43D;&#x435;&#x433;&#x43E;.</p>
+<p><img src="../assets/amls/grabbing_system_1.png" alt="Screenshot" title="Screenshot"></p>
+<p><img src="../assets/amls/grabbing_system_2.png" alt="Screenshot" title="Screenshot"></p>
+<h3 id="weather-protection-system"><a name="weather-protection-system" class="plugin-anchor" href="#weather-protection-system"><i class="fa fa-link" aria-hidden="true"></i></a>6.2. &#x41A;&#x440;&#x44B;&#x448;&#x430; </h3>
+<p>&#x414;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x43E;&#x442; &#x43D;&#x435;&#x431;&#x43B;&#x430;&#x433;&#x43E;&#x43F;&#x440;&#x438;&#x44F;&#x442;&#x43D;&#x44B;&#x445; &#x43F;&#x43E;&#x433;&#x43E;&#x434;&#x43D;&#x44B;&#x445; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x439;, &#x43C;&#x44B; &#x440;&#x430;&#x437;&#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x43B;&#x438; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C; &#x43A;&#x440;&#x44B;&#x448;&#x438; - &#x43D;&#x43E;&#x436;&#x43D;&#x438;&#x447;&#x43D;&#x44B;&#x435; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C;&#x44B;, &#x43E;&#x431;&#x442;&#x44F;&#x43D;&#x443;&#x442;&#x44B;&#x435; &#x431;&#x440;&#x435;&#x437;&#x435;&#x43D;&#x442;&#x43E;&#x43C;, &#x43A;&#x43E;&#x442;&#x43E;&#x440;&#x44B;&#x435; &#x43D;&#x430;&#x445;&#x43E;&#x434;&#x44F;&#x442;&#x441;&#x44F; &#x43D;&#x430; &#x43A;&#x440;&#x430;&#x44F;&#x445; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x438; &#x43F;&#x43E;&#x441;&#x43B;&#x435; &#x443;&#x441;&#x43F;&#x435;&#x448;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C;&#x44B; &#x441; &#x43E;&#x431;&#x435;&#x438;&#x445; &#x441;&#x442;&#x43E;&#x440;&#x43E;&#x43D; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x431;&#x443;&#x434;&#x443;&#x442; &#x437;&#x430;&#x43A;&#x440;&#x44B;&#x432;&#x430;&#x442;&#x44C;&#x441;&#x44F; &#x438; &#x437;&#x430;&#x449;&#x438;&#x449;&#x430;&#x442;&#x44C; &#x434;&#x440;&#x43E;&#x43D; &#x43E;&#x442; &#x432;&#x43D;&#x435;&#x448;&#x43D;&#x435;&#x433;&#x43E; &#x432;&#x43E;&#x437;&#x434;&#x435;&#x439;&#x441;&#x442;&#x432;&#x438;&#x44F;, &#x421;&#x430;&#x43C;&#x430; &#x43A;&#x43E;&#x43D;&#x441;&#x442;&#x440;&#x443;&#x43A;&#x446;&#x438;&#x44F; &#x43A;&#x440;&#x44B;&#x448;&#x438; &#x434;&#x435;&#x43B;&#x430;&#x435;&#x442; &#x435;&#x451; &#x434;&#x43E;&#x441;&#x442;&#x430;&#x442;&#x43E;&#x447;&#x43D;&#x43E; &#x43B;&#x451;&#x433;&#x43A;&#x43E;&#x439; &#x438; &#x43F;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x439;, &#x430; &#x43D;&#x43E;&#x436;&#x43D;&#x438;&#x447;&#x43D;&#x44B;&#x439; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C; &#x43F;&#x43E;&#x437;&#x432;&#x43E;&#x43B;&#x44F;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E; &#x441;&#x43A;&#x43B;&#x430;&#x434;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x438; &#x440;&#x430;&#x441;&#x43A;&#x43B;&#x430;&#x434;&#x44B;&#x432;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x43F;&#x440;&#x438; &#x44D;&#x442;&#x43E;&#x43C; &#x441;&#x431;&#x43E;&#x440;&#x43A;&#x430; &#x442;&#x430;&#x43A;&#x43E;&#x433;&#x43E; &#x43C;&#x435;&#x445;&#x430;&#x43D;&#x438;&#x437;&#x43C;&#x430; &#x431;&#x443;&#x434;&#x435;&#x442; &#x43F;&#x440;&#x43E;&#x441;&#x442;&#x43E;&#x439; &#x438; &#x43D;&#x430;&#x434;&#x435;&#x436;&#x43D;&#x43E;&#x439;.</p>
+<p><img src="../assets/amls/platform_side_transparent.png" alt="Screenshot" title="Screenshot"></p>
+<p><img src="../assets/amls/platform_roof.png" alt="Screenshot" title="Screenshot"></p>
+<h3 id="platform-speedometer"><a name="platform-speedometer" class="plugin-anchor" href="#platform-speedometer"><i class="fa fa-link" aria-hidden="true"></i></a>6.3. &#x421;&#x43F;&#x438;&#x434;&#x43E;&#x43C;&#x435;&#x442;&#x440; </h3>
+<p>&#x414;&#x43B;&#x44F; &#x431;&#x443;&#x434;&#x443;&#x449;&#x435;&#x439; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x43D;&#x430; &#x431;&#x44B;&#x441;&#x442;&#x440;&#x43E; &#x434;&#x432;&#x438;&#x436;&#x443;&#x449;&#x443;&#x44E;&#x441;&#x44F; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443;, &#x43E;&#x447;&#x435;&#x43D;&#x44C; &#x43F;&#x43E;&#x43B;&#x435;&#x437;&#x43D;&#x43E; &#x437;&#x43D;&#x430;&#x442;&#x44C; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x435;&#x451; &#x434;&#x432;&#x438;&#x436;&#x435;&#x43D;&#x438;&#x44F;. &#x41D;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x435; &#x43D;&#x435;&#x442; GPS &#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44F;, &#x438;&#x43B;&#x438; &#x438;&#x43D;&#x44B;&#x445; &#x441;&#x43F;&#x43E;&#x441;&#x43E;&#x431;&#x43E;&#x432; &#x438;&#x437;&#x43C;&#x435;&#x440;&#x438;&#x442;&#x44C; &#x430;&#x431;&#x441;&#x43E;&#x43B;&#x44E;&#x442;&#x43D;&#x443;&#x44E; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;. &#x41F;&#x43E;&#x44D;&#x442;&#x43E;&#x43C;&#x443;, &#x434;&#x43B;&#x44F; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x43D;&#x43E;&#x433;&#x43E; &#x440;&#x435;&#x448;&#x435;&#x43D;&#x438;&#x44F; &#x44D;&#x442;&#x43E;&#x439; &#x43F;&#x440;&#x43E;&#x431;&#x43B;&#x435;&#x43C;&#x44B;, &#x440;&#x435;&#x448;&#x435;&#x43D;&#x43E; &#x431;&#x44B;&#x43B;&#x43E; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x44F;&#x442;&#x44C; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x43F;&#x43E; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x44E;, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44F; &#x430;&#x43A;&#x441;&#x435;&#x43B;&#x435;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;. &#x414;&#x43B;&#x44F; &#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;&#x430;, MPU6050. IMU-&#x43C;&#x43E;&#x434;&#x443;&#x43B;&#x44C; &#x447;&#x435;&#x440;&#x435;&#x437; &#x43C;&#x44F;&#x433;&#x43A;&#x443;&#x44E; &#x43F;&#x43E;&#x434;&#x43B;&#x43E;&#x436;&#x43A;&#x443; &#x443;&#x441;&#x442;&#x430;&#x43D;&#x43E;&#x432;&#x43B;&#x435;&#x43D; &#x43D;&#x430; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x438; &#x43F;&#x440;&#x438;&#x43A;&#x440;&#x44B;&#x442; &#x43A;&#x440;&#x44B;&#x448;&#x43A;&#x43E;&#x439; &#x434;&#x43B;&#x44F; &#x437;&#x430;&#x449;&#x438;&#x442;&#x44B; &#x43E;&#x442; &#x432;&#x435;&#x442;&#x440;&#x430;. &#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (Liberty-Way) &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; <code>L1</code> &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x438; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;. &#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F; <code>S0 L&lt;&#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x432; &#x43A;&#x43C;/&#x447;&gt;</code>.</p>
+<p><img src="../assets/amls/mpu6050_gyro.png" alt="MPU6050" title="MPU6050"></p>
+<p>&#x422;&#x435;&#x441;&#x442; &#x441;&#x43F;&#x438;&#x434;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x430; (&#x432;&#x43D;&#x443;&#x442;&#x440;&#x438; &#x441;&#x435;&#x440;&#x43E;&#x433;&#x43E; &#x43A;&#x440;&#x443;&#x433;&#x430; &#x43D;&#x438;&#x436;&#x43D;&#x438;&#x439; &#x43F;&#x440;&#x430;&#x432;&#x44B;&#x439; &#x43F;&#x430;&#x440;&#x430;&#x43C;&#x435;&#x442;&#x440; (SPD) - &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x432; &#x43A;&#x43C;/&#x447;) (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yvCo6tYjdM0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x414;&#x43B;&#x44F; &#x432;&#x44B;&#x447;&#x438;&#x441;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x438;, &#x431;&#x435;&#x440;&#x451;&#x442;&#x441;&#x44F; &#x443;&#x441;&#x43A;&#x43E;&#x440;&#x435;&#x43D;&#x438;&#x435; &#x437;&#x430; &#x43C;&#x430;&#x43B;&#x435;&#x43D;&#x44C;&#x43A;&#x438;&#x435; &#x43F;&#x440;&#x43E;&#x43C;&#x435;&#x436;&#x443;&#x442;&#x43A;&#x438; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x438;, &#x43F;&#x435;&#x440;&#x435;&#x43C;&#x43D;&#x43E;&#x436;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x43E; &#x432;&#x440;&#x435;&#x43C;&#x435;&#x43D;&#x435;&#x43C;, &#x43F;&#x43E;&#x43B;&#x443;&#x447;&#x430;&#x44F; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x43B;&#x44C;&#x43D;&#x443;&#x44E; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;. &#x41A;&#x43E;&#x442;&#x43E;&#x440;&#x430;&#x44F; &#x43F;&#x43E;&#x441;&#x442;&#x43E;&#x44F;&#x43D;&#x43D;&#x43E; &#x43F;&#x440;&#x438;&#x431;&#x430;&#x432;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x43A; &#x43F;&#x440;&#x435;&#x434;&#x44B;&#x434;&#x443;&#x449;&#x435;&#x439; &#x441;&#x443;&#x43C;&#x43C;&#x435;:</p>
+<pre><code class="lang-cpp"><span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">speed_handler</span><span class="hljs-params">(<span class="hljs-keyword">void</span>)</span> </span>{
+    gyro_signalen();
+
+    <span class="hljs-comment">// Filter accelerations</span>
+    acc_x_filtered = (<span class="hljs-keyword">float</span>)acc_x_filtered * ACC_FILTER_KOEFF + (<span class="hljs-keyword">float</span>)acc_x * (<span class="hljs-number">1.0</span> - ACC_FILTER_KOEFF);
+
+    speed = acc_x_filtered;
+    <span class="hljs-comment">// Convert acceleration to G</span>
+    speed /= <span class="hljs-number">4096.0</span>;
+    <span class="hljs-comment">// Convert to m/s^2</span>
+    speed *= <span class="hljs-number">9.81</span>;    
+    <span class="hljs-comment">// Multiply by dt to get instant speed in m/ms</span>
+    speed *= (millis() - speed_loop_timer);
+
+    <span class="hljs-comment">// Reset timer</span>
+    speed_loop_timer = millis();
+
+    <span class="hljs-comment">// Convert to m/s</span>
+    speed /= <span class="hljs-number">1000.0</span>;                        
+    <span class="hljs-comment">// Convert to km/h</span>
+    speed *= <span class="hljs-number">3.6</span>;                        
+
+    <span class="hljs-comment">// Accumulate instatnt speed</span>
+    speed_accumulator += speed;
+
+    <span class="hljs-keyword">if</span> (!in_move_flag) {
+        <span class="hljs-comment">// If the platform is not moving, reset the speed</span>
+        speed_accumulator = speed_accumulator * SPEED_ZEROING_FACTOR;
+    }
+}
+</code></pre>
+<p>&#x41D;&#x435;&#x441;&#x43C;&#x43E;&#x442;&#x440;&#x44F; &#x43D;&#x430; &#x43D;&#x430;&#x43B;&#x438;&#x447;&#x438;&#x435; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x444;&#x438;&#x43B;&#x44C;&#x442;&#x440;&#x43E;&#x432;, &#x438;&#x437;-&#x437;&#x430; &#x43F;&#x43E;&#x433;&#x440;&#x435;&#x448;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C; &#x43C;&#x43E;&#x436;&#x435;&#x442; &#x43D;&#x435; &quot;&#x432;&#x435;&#x440;&#x43D;&#x443;&#x442;&#x44C;&#x441;&#x44F;&quot; &#x432; 0, &#x43F;&#x43E;&#x44D;&#x442;&#x43E;&#x43C;&#x443;, &#x442;&#x430;&#x43A;&#x436;&#x435; &#x43F;&#x440;&#x43E;&#x438;&#x437;&#x432;&#x43E;&#x434;&#x438;&#x442;&#x441;&#x44F; &#x437;&#x430;&#x43C;&#x435;&#x440; &#x432;&#x438;&#x431;&#x440;&#x430;&#x446;&#x438;&#x439;, &#x438;, &#x435;&#x441;&#x43B;&#x438; &#x43E;&#x43D;&#x438; &#x43C;&#x435;&#x43D;&#x44C;&#x448;&#x435; &#x43F;&#x43E;&#x440;&#x43E;&#x433;&#x430;, &#x441;&#x447;&#x438;&#x442;&#x430;&#x435;&#x442;&#x441;&#x44F; &#x447;&#x442;&#x43E; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; &#x441;&#x442;&#x43E;&#x438;&#x442; &#x438; &#x43F;&#x43E;&#x441;&#x442;&#x435;&#x43F;&#x435;&#x43D;&#x43D;&#x43E; &#x43E;&#x431;&#x43D;&#x443;&#x43B;&#x44F;&#x435;&#x442;&#x441;&#x44F; &#x441;&#x43A;&#x43E;&#x440;&#x43E;&#x441;&#x442;&#x44C;.</p>
+<p>&#x41F;&#x43E;&#x43B;&#x43D;&#x44B;&#x439; &#x43A;&#x43E;&#x434; &#x441;&#x43F;&#x438;&#x434;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x430; &#x43C;&#x43E;&#x436;&#x43D;&#x43E; &#x43D;&#x430;&#x439;&#x442;&#x438; &#x432; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438; Eitude &#x43D;&#x430; GitHub: <a href="https://github.com/XxOinvizioNxX/Eitude" target="_blank">https://github.com/XxOinvizioNxX/Eitude</a></p>
+<h3 id="platform-light-sensor"><a name="platform-light-sensor" class="plugin-anchor" href="#platform-light-sensor"><i class="fa fa-link" aria-hidden="true"></i></a>6.4. &#x414;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x438; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438; </h3>
+<p>&#x422;.&#x43A;. &#x43D;&#x430;&#x448;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x430; &#x434;&#x43E;&#x43B;&#x436;&#x43D;&#x430; &#x440;&#x430;&#x431;&#x43E;&#x442;&#x430;&#x442;&#x44C; &#x432; &#x440;&#x430;&#x437;&#x43B;&#x438;&#x447;&#x43D;&#x44B;&#x445; &#x43E;&#x43A;&#x440;&#x443;&#x436;&#x430;&#x44E;&#x449;&#x438;&#x445; &#x443;&#x441;&#x43B;&#x43E;&#x432;&#x438;&#x44F;&#x445;, &#x430; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x430;&#x44F; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x44F; &#x43E;&#x447;&#x435;&#x43D;&#x44C; &#x442;&#x440;&#x435;&#x431;&#x43E;&#x432;&#x430;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x430; &#x43A; &#x432;&#x438;&#x434;&#x438;&#x43C;&#x43E;&#x441;&#x442;&#x438; ArUco &#x43C;&#x430;&#x440;&#x43A;&#x435;&#x440;&#x430;, &#x432;&#x430;&#x436;&#x43D;&#x43E; &#x438;&#x43C;&#x435;&#x442;&#x44C; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x443;&#x44E; &#x441;&#x438;&#x441;&#x442;&#x435;&#x43C;&#x443; &#x438;&#x437;&#x43C;&#x435;&#x440;&#x435;&#x43D;&#x438;&#x44F; &#x432;&#x44B;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438; &#x43A;&#x430;&#x43C;&#x435;&#x440;&#x44B; &#x43F;&#x43E; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44E; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438;, &#x430;, &#x43F;&#x440;&#x438; &#x435;&#x451; &#x43D;&#x435;&#x445;&#x432;&#x430;&#x442;&#x43A;&#x435;, &#x434;&#x430;&#x436;&#x435; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x430;&#x442;&#x44C; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x443;&#x44E; &#x43F;&#x43E;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43A;&#x443;. &#x412; &#x434;&#x43E;&#x43B;&#x433;&#x43E;&#x441;&#x440;&#x43E;&#x447;&#x43D;&#x43E;&#x439; &#x43F;&#x435;&#x440;&#x441;&#x43F;&#x435;&#x43A;&#x442;&#x438;&#x432;&#x435; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x43E;&#x432; &#x441;&#x432;&#x435;&#x442;&#x430; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x443;&#x435;&#x442;&#x441;&#x44F; &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x43E;&#x432;&#x430;&#x442;&#x44C; &#x441;&#x43F;&#x435;&#x446;&#x438;&#x430;&#x43B;&#x438;&#x437;&#x438;&#x440;&#x43E;&#x432;&#x430;&#x43D;&#x43D;&#x44B;&#x435; &#x441;&#x435;&#x43D;&#x441;&#x43E;&#x440;&#x44B;, &#x43D;&#x430;&#x43F;&#x440;&#x438;&#x43C;&#x435;&#x440;, BH1750.</p>
+<p>&#x412; &#x442;&#x435;&#x43A;&#x443;&#x449;&#x435;&#x43C; &#x432;&#x430;&#x440;&#x438;&#x430;&#x43D;&#x442;&#x435; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F;&#x430;, &#x438;&#x441;&#x43F;&#x43E;&#x43B;&#x44C;&#x437;&#x443;&#x44E;&#x442;&#x441;&#x44F; 6 &#x441;&#x432;&#x435;&#x442;&#x43E;&#x434;&#x438;&#x43E;&#x434;&#x43E;&#x432; &#x432; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x434;&#x430;&#x442;&#x447;&#x438;&#x43A;&#x430; &#x441;&#x432;&#x435;&#x442;&#x430; &#x438;, &#x432;&#x441;&#x442;&#x440;&#x43E;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x432; &#x43C;&#x438;&#x43A;&#x440;&#x43E;&#x43A;&#x43E;&#x43D;&#x442;&#x440;&#x43E;&#x43B;&#x43B;&#x435;&#x440;, &#x410;&#x426;&#x41F;. &#x410;&#x43B;&#x433;&#x43E;&#x440;&#x438;&#x442;&#x43C; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; (Liberty-Way) &#x43F;&#x43E;&#x441;&#x44B;&#x43B;&#x430;&#x435;&#x442; &#x43D;&#x430; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; &#x437;&#x430;&#x43F;&#x440;&#x43E;&#x441; <code>L0</code> &#x434;&#x43B;&#x44F; &#x43F;&#x440;&#x43E;&#x432;&#x435;&#x440;&#x43A;&#x438; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438;. &#x412; &#x43A;&#x430;&#x447;&#x435;&#x441;&#x442;&#x432;&#x435; &#x43E;&#x442;&#x432;&#x435;&#x442;&#x430; &#x432;&#x43E;&#x437;&#x432;&#x440;&#x430;&#x449;&#x430;&#x435;&#x442;&#x441;&#x44F; <code>S0 L&lt;&#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x44C;&gt;</code>.</p>
+<p><img src="../assets/amls/light_sensors.png" alt="Light sensors" title="Light sensors"></p>
+<p>&#x422;&#x435;&#x441;&#x442; &#x43E;&#x43F;&#x440;&#x435;&#x434;&#x435;&#x43B;&#x435;&#x43D;&#x438;&#x44F; &#x443;&#x440;&#x43E;&#x432;&#x43D;&#x44F; &#x43E;&#x441;&#x432;&#x435;&#x449;&#x451;&#x43D;&#x43D;&#x43E;&#x441;&#x442;&#x438; &#x441; &#x43F;&#x43E;&#x43C;&#x43E;&#x449;&#x44C;&#x44E; &#x441;&#x432;&#x435;&#x442;&#x43E;&#x434;&#x438;&#x43E;&#x434;&#x43E;&#x432; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xQeiA945aRA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>&#x422;&#x435;&#x441;&#x442; &#x440;&#x435;&#x433;&#x443;&#x43B;&#x438;&#x440;&#x43E;&#x432;&#x43A;&#x438; &#x432;&#x44B;&#x434;&#x435;&#x440;&#x436;&#x43A;&#x438; &#x438; &#x432;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x44F; &#x434;&#x43E;&#x43F;&#x43E;&#x43B;&#x43D;&#x438;&#x442;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;&#x439; &#x43F;&#x43E;&#x434;&#x441;&#x432;&#x435;&#x442;&#x43A;&#x438; (&#x43A;&#x43B;&#x438;&#x43A;&#x430;&#x431;&#x435;&#x43B;&#x44C;&#x43D;&#x43E;):</p>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iMORim6zxsg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<hr>
+<h2 id="conclusion"><a name="conclusion" class="plugin-anchor" href="#conclusion"><i class="fa fa-link" aria-hidden="true"></i></a>7. &#x417;&#x430;&#x43A;&#x43B;&#x44E;&#x447;&#x435;&#x43D;&#x438;&#x435; </h2>
+<p>&#x41D;&#x430; &#x434;&#x430;&#x43D;&#x43D;&#x44B;&#x439; &#x43C;&#x43E;&#x43C;&#x435;&#x43D;&#x442;, &#x438;&#x43C;&#x435;&#x435;&#x442;&#x441;&#x44F; &#x43E;&#x442;&#x43B;&#x430;&#x436;&#x435;&#x43D;&#x43D;&#x44B;&#x439; &#x43F;&#x440;&#x43E;&#x442;&#x43E;&#x442;&#x438;&#x43F; &#x43E;&#x43F;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;, GPS &#x443;&#x434;&#x435;&#x440;&#x436;&#x430;&#x43D;&#x438;&#x44F;, &#x441;&#x442;&#x430;&#x431;&#x438;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438; &#x432;&#x44B;&#x441;&#x43E;&#x442;&#x44B; &#x43F;&#x43E; &#x431;&#x430;&#x440;&#x43E;&#x43C;&#x435;&#x442;&#x440;&#x443;, &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x44B; &#x438; &#x43C;&#x43D;&#x43E;&#x436;&#x435;&#x441;&#x442;&#x432;&#x43E; 3&#x414;-&#x43C;&#x43E;&#x434;&#x435;&#x43B;&#x435;&#x439;, &#x436;&#x430;&#x436;&#x434;&#x443;&#x449;&#x438;&#x445; &#x440;&#x435;&#x430;&#x43B;&#x438;&#x437;&#x430;&#x446;&#x438;&#x438;.
+&#x41F;&#x440;&#x43E;&#x435;&#x43A;&#x442; &#x430;&#x432;&#x442;&#x43E;&#x43C;&#x430;&#x442;&#x438;&#x447;&#x435;&#x441;&#x43A;&#x43E;&#x439; &#x43F;&#x43E;&#x441;&#x430;&#x434;&#x43A;&#x438; &#x434;&#x440;&#x43E;&#x43D;&#x430; &#x43D;&#x430; &#x434;&#x432;&#x438;&#x436;&#x443;&#x449;&#x443;&#x44E;&#x441;&#x44F; &#x43F;&#x43B;&#x430;&#x442;&#x444;&#x43E;&#x440;&#x43C;&#x443; &#x435;&#x449;&#x451; &#x43D;&#x435; &#x437;&#x430;&#x43A;&#x43E;&#x43D;&#x447;&#x435;&#x43D;.</p>
+<p>&#x421;&#x43B;&#x435;&#x434;&#x438;&#x442;&#x435; &#x437;&#x430; &#x43D;&#x430;&#x448;&#x438;&#x43C;&#x438; &#x430;&#x43F;&#x434;&#x435;&#x439;&#x442;&#x430;&#x43C;&#x438;:</p>
+<ul>
+<li>&#x41D;&#x430; &#x440;&#x435;&#x43F;&#x43E;&#x437;&#x438;&#x442;&#x43E;&#x440;&#x438;&#x438; GitHub: <a href="https://github.com/XxOinvizioNxX/Liberty-Way" target="_blank">https://github.com/XxOinvizioNxX/Liberty-Way</a>.</li>
+<li>&#x418; &#x43D;&#x430; &#x43D;&#x430;&#x448;&#x435;&#x43C; YouTube-&#x43A;&#x430;&#x43D;&#x430;&#x43B;&#x435;: <a href="https://www.youtube.com/channel/UCqN12Jzy-1eJLkcA32R0jdg" target="_blank">https://www.youtube.com/channel/UCqN12Jzy-1eJLkcA32R0jdg</a>.</li>
+</ul>
+<p>&#x412; &#x434;&#x430;&#x43B;&#x44C;&#x43D;&#x435;&#x439;&#x448;&#x435;&#x43C;, &#x43C;&#x44B; &#x43F;&#x43B;&#x430;&#x43D;&#x438;&#x440;&#x443;&#x435;&#x43C; &#x441;&#x434;&#x435;&#x43B;&#x430;&#x442;&#x44C; &#x435;&#x449;&#x451; &#x43C;&#x43D;&#x43E;&#x433;&#x43E; &#x43D;&#x43E;&#x432;&#x43E;&#x433;&#x43E; &#x438; &#x438;&#x43D;&#x442;&#x435;&#x440;&#x435;&#x441;&#x43D;&#x43E;&#x433;&#x43E;!</p>
+<p><img src="../assets/amls/follow_the_white_rabbit.png" alt="Follow the white rabbit" title="Follow the white rabbit"></p>
+<p><footer id="page-footer" class="localized-footer"><!-- markdownlint-disable MD041 -->
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img src="../assets/cc-by-nc-sa.svg"></a>
+&#x414;&#x43E;&#x43A;&#x443;&#x43C;&#x435;&#x43D;&#x442;&#x430;&#x446;&#x438;&#x44F; &#x41A;&#x43B;&#x435;&#x432;&#x435;&#x440;&#x430; &#x434;&#x43E;&#x441;&#x442;&#x443;&#x43F;&#x43D;&#x430; &#x43F;&#x43E; <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">&#x43B;&#x438;&#x446;&#x435;&#x43D;&#x437;&#x438;&#x438; Creative Commons &#xAB;Attribution-NonCommercial-ShareAlike&#xBB; 4.0 &#x412;&#x441;&#x435;&#x43C;&#x438;&#x440;&#x43D;&#x430;&#x44F;</a>.</p>
+</footer></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="projects.html" class="navigation navigation-prev " aria-label="Previous page: Проекты на базе Клевера">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="remote-control-with-oculusvr.html" class="navigation navigation-next " aria-label="Next page: Разработка системы для управления БПЛА с помощью шлема виртуальной реальности">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Система автоматической посадки (AMLS)","level":"1.11.1","depth":2,"next":{"title":"Разработка системы для управления БПЛА с помощью шлема виртуальной реальности","level":"1.11.2","depth":2,"path":"remote-control-with-oculusvr.md","ref":"remote-control-with-oculusvr.md","articles":[]},"previous":{"title":"Проекты на базе Клевера","level":"1.11","depth":1,"path":"projects.md","ref":"projects.md","articles":[{"title":"Система автоматической посадки (AMLS)","level":"1.11.1","depth":2,"path":"amls.md","ref":"amls.md","articles":[]},{"title":"Разработка системы для управления БПЛА с помощью шлема виртуальной реальности","level":"1.11.2","depth":2,"path":"remote-control-with-oculusvr.md","ref":"remote-control-with-oculusvr.md","articles":[]},{"title":"Шоу коптеров","level":"1.11.3","depth":2,"path":"clever-show.md","ref":"clever-show.md","articles":[]},{"title":"Innopolis Open 2020 (L22_ÆRO)","level":"1.11.4","depth":2,"path":"innopolis_open_L22_AERO.md","ref":"innopolis_open_L22_AERO.md","articles":[]},{"title":"Олимпиада НТИ 2020 (P4DF2)","level":"1.11.5","depth":2,"path":"nti2020_p4df2.md","ref":"nti2020_p4df2.md","articles":[]},{"title":"Генератор ArUco карт","level":"1.11.6","depth":2,"path":"arucogenmap.md","ref":"arucogenmap.md","articles":[]},{"title":"Модель аэротакси в городе","level":"1.11.7","depth":2,"path":"bigchallenges.md","ref":"bigchallenges.md","articles":[]},{"title":"Шаровая защита коптера","level":"1.11.8","depth":2,"path":"shield.md","ref":"shield.md","articles":[]},{"title":"Система засечки для дронов","level":"1.11.9","depth":2,"path":"race_timing_sys_copterhack.md","ref":"race_timing_sys_copterhack.md","articles":[]},{"title":"Дрон для 3D-сканирования человека","level":"1.11.10","depth":2,"path":"3dscan.md","ref":"3dscan.md","articles":[]},{"title":"Распознавание лиц","level":"1.11.11","depth":2,"path":"face_recognition.md","ref":"face_recognition.md","articles":[]},{"title":"Управление дроном силой мысли","level":"1.11.12","depth":2,"path":"control_emotions.md","ref":"control_emotions.md","articles":[]},{"title":"Подсчет количества объектов c камеры","level":"1.11.13","depth":2,"path":"object_counting.md","ref":"object_counting.md","articles":[]},{"title":"Пульт на Андроид","level":"1.11.14","depth":2,"path":"android.md","ref":"android.md","articles":[]},{"title":"Блочный конструктор полета","level":"1.11.15","depth":2,"path":"clever_blocks.md","ref":"clever_blocks.md","articles":[]},{"title":"Калибровка камеры (legacy)","level":"1.11.16","depth":2,"path":"camera_calib.md","ref":"camera_calib.md","articles":[]},{"title":"Управление дроном для оценки позы человека","level":"1.11.17","depth":2,"path":"human_pose_estimation_drone_control.md","ref":"human_pose_estimation_drone_control.md","articles":[]},{"title":"Распознавание видов агрокультур","level":"1.11.18","depth":2,"path":"agriculture.md","ref":"agriculture.md","articles":[]},{"title":"AdvancedClover","level":"1.11.19","depth":2,"path":"advanced_clover.md","ref":"advanced_clover.md","articles":[]},{"title":"Дрон для высаживания семян","level":"1.11.20","depth":2,"path":"seeding_drone.md","ref":"seeding_drone.md","articles":[]},{"title":"Граффити коптер D-drone","level":"1.11.21","depth":2,"path":"ddrone.md","ref":"ddrone.md","articles":[]},{"title":"Программируемый летающий автомобиль","level":"1.11.22","depth":2,"path":"zaural_viking.md","ref":"zaural_viking.md","articles":[]},{"title":"Дрон-Агроном","level":"1.11.23","depth":2,"path":"drone-agronom.md","ref":"drone-agronom.md","articles":[]},{"title":"Easy To Fly","level":"1.11.24","depth":2,"path":"easytofly.md","ref":"easytofly.md","articles":[]},{"title":"Хардатон Квиддич","level":"1.11.25","depth":2,"path":"hardaton_quidditch.md","ref":"hardaton_quidditch.md","articles":[]},{"title":"Октокоптер со специфичным расположением пропеллеров","level":"1.11.26","depth":2,"path":"oktazodg.md","ref":"oktazodg.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["richquotes@https://github.com/okalachev/gitbook-plugin-richquotes.git","yametrika","anchors","collapsible-menu","validate-links","bulk-redirect@https://github.com/okalachev/gitbook-plugin-bulk-redirect.git","sitemap@https://github.com/okalachev/plugin-sitemap.git","toolbar@https://github.com/hamishwillee/gitbook-plugin-toolbar.git","addcssjs","localized-footer@https://github.com/okalachev/gitbook-plugin-localized-footer.git","image-zoom@https://github.com/okalachev/gitbook-plugin-image-zoom.git","language-picker@https://github.com/okalachev/gitbook-plugin-language-picker.git"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"yametrika":{"id":49359238},"validate-links":{"remote":"disabled","local":"warn","defaultScheme":"https"},"collapsible-menu":{},"language-picker":{"grid-columns":3,"languages":[["ru","Russian"],["en","English"]]},"image-zoom":{},"search":{},"addcssjs":{"js":["../clover.js"],"css":["../clover.css"]},"localized-footer":{"hline":false,"filename":"./FOOTER.md"},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"richquotes":{},"highlight":{},"sitemap":{"hostname":"https://clover.coex.tech"},"bulk-redirect":{"basepath":"","redirectsFile":"redirects.json","blank":true},"toolbar":{"buttons":[{"label":"Edit page on github","icon":"fa fa-pencil-square-o","position":"left","url":"https://github.com/CopterExpress/clover/edit/master/docs/{{filepath_lang}}"},{"label":"GitHub","icon":"fa fa-github","position":"left","url":"https://github.com/CopterExpress/clover"}]},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{}},"theme":"default","author":"Copter Express","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"_GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Clover","language":"ru","gitbook":"*","description":"Конструктор квадрокоптера «Клевер»"},"file":{"path":"amls.md","mtime":"2021-07-15T14:57:01.310Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-07-15T14:59:49.092Z"},"basePath":".","book":{"language":"ru"}});
+        });
+    </script>
+</div>
+
+        
+    
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-yametrika/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-collapsible-menu/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-toolbar/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-image-zoom/zoom.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-language-picker/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    
+    <script type="text/javascript" src="../clover.js"></script>
+    
+
+    <script type='text/javascript'>
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter49359238 = new Ya.Metrika({"id":49359238});
+                } catch(e) { }
+            });
+            var n = d.getElementsByTagName('script')[0],
+                s = d.createElement('script'),
+                f = function () {
+                    n.parentNode.insertBefore(s, n);
+                };
+
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = (d.location.protocol == 'https:' ? 'https:' : 'http:') + '//mc.yandex.ru/metrika/watch.js';
+            if (w.opera == '[object Opera]') {
+                d.addEventListener('DOMContentLoaded', f, false);
+            } else {
+                f();
+            }
+        })(document, window, 'yandex_metrika_callbacks');
+    </script>
+    <noscript>
+        <div>
+            <img src="//mc.yandex.ru/watch/49359238" style="position:absolute; left:-9999px;" alt=""/>
+        </div>
+    </noscript>
+
+    </body>
+</html>
+

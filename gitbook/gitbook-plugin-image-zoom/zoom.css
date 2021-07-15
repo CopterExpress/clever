@@ -1,0 +1,53 @@
+.zoom-overlay {
+	z-index: 420;
+	background: #fff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	pointer-events: none;
+	filter: "alpha(opacity=0)";
+	opacity: 0;
+	transition: opacity 0.2s;
+	height: 0;
+}
+
+.zoom-overlay.black {
+	background: #1c1f2b;
+}
+
+body.zoom-zoomed .zoom-overlay {
+	filter: "alpha(opacity=100)";
+	opacity: 1;
+	cursor: zoom-out;
+	bottom: 0;
+	height: auto;
+}
+
+.zoom-overlay-img {
+	position: absolute;
+	transition: width 0.2s, height 0.2s, top 0.2s, left 0.2s;
+	z-index: 666;
+	transform: translateZ(0);
+	pointer-events: none;
+}
+
+.zoom-overlay-img {
+	object-fit: contain;
+}
+
+body.zoom-zoomed .zoom-overlay-img {
+	width: 90% !important;
+	height: 90% !important;
+	top: 5% !important;
+	left: 5% !important;
+}
+
+body.zoom-zoomed .zoom-current-img, body.zoom-unzooming .zoom-current-img {
+	visibility: hidden;
+}
+
+img.zoom {
+	cursor: zoom-in;
+}

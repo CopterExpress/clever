@@ -1,0 +1,80 @@
+/* Dashed list items */
+section ul li {
+	list-style-type: none;
+}
+section ul li:before {
+	content: "—";
+	margin-left: -20px;
+	position: absolute;
+}
+
+/* Centered images */
+.book img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Images with border */
+.book img.border {
+	border: 1px #e9e9e9 solid;
+	border-radius: 5px;
+}
+
+.book.color-theme-2 img.border {
+	border: none;
+	background: #fffffa;
+}
+
+/* Images groups in instructions */
+.book .image-group {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.book .image-group img {
+	align-self: center;
+	margin: 0 10px;
+	width: 300px;
+	margin-bottom: 0.85em;
+}
+
+.book.color-theme-2 img.big-clover {
+	/* change image for black background */
+	content:url(assets/clover42-black.png);
+}
+
+footer {
+	margin-top: 35px;
+	border-top: 1px solid #e9e9e9;
+	font-size: smaller !important;
+	padding-top: .85em
+}
+
+footer img {
+	float: left;
+	margin-right: .85em;
+}
+
+/*Assemble clover 4.2 article*/
+.type_table tr td {
+	padding: 14px 20px;
+}
+
+table.versions td {
+	text-align: center;
+	background: white;
+}
+
+table.versions .subversion {
+	font-size: 80%;
+}
+
+.circle {
+	width: 0.8em;
+	height: 0.8em;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 0.5em;
+}
